@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="nl-nl" dir="ltr">
+<head>
+    <meta http-equiv="origin-trial"
+          content="A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/images/favicon.png" sizes="any">
+    <link rel="apple-touch-icon" href="/images/favicon.png">
+    <meta charset="utf-8">
+    <meta name="author" content="Twan Joosten">
+    <meta name="description" content="de Bibliotheek Bibliorura">
+    <title>Home - de Bibliotheek Bibliorura</title>
+    <link href="/media/system/css/joomla-fontawesome.min.css?ver=4.4.10" rel="stylesheet" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+    <link href="/media/vendor/joomla-custom-elements/css/joomla-alert.min.css?0.2.0" rel="stylesheet">
+    <link href="/modules/mod_openinghours/tmpl/style.css" rel="stylesheet">
+    <link href="/media/plg_system_jcepro/site/css/content.min.css?fe2b19f2ee347603dcb1ee4916167c1f" rel="stylesheet">
+    <link href="/templates/yootheme_bibliorura/css/theme.128.css?1729101860" rel="stylesheet">
+    <link href="/templates/yootheme_bibliorura/css/custom.css?4.4.10" rel="stylesheet">
+    <script type="text/javascript" async="" charset="utf-8"
+            src="https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js"
+            crossorigin="anonymous"
+            integrity="sha384-me+fKkpx+LDPr+jjTccMyZRS5BoP+JLiYHKscp4bUxp+j6TnL/qxiwcgzpRCCrlc"></script>
+    <script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+    <script src="/media/legacy/js/jquery-noconflict.min.js?647005fc12b79b3ca2bb30c059899d5994e3e34d"></script>
+    <script type="application/json" class="joomla-script-options loaded">{
+        "joomla.jtext": {
+            "RLTA_BUTTON_SCROLL_LEFT": "Scroll buttons to the left",
+            "RLTA_BUTTON_SCROLL_RIGHT": "Scroll buttons to the right",
+            "MOD_OCLCWISE_SEARCH_JSCOPE_TITEL": "titel",
+            "MOD_OCLCWISE_SEARCH_JSCOPE_AUTEUR": "auteur",
+            "MOD_OCLCWISE_SEARCH_JSCOPE_ONDERWERP": "onderwerp",
+            "MOD_OCLCWISE_SEARCH_JSCOPE_REEKS_SERIE": "reeks\/serie",
+            "MOD_OCLCWISE_SEARCH_JSCOPE_BEROEP": "beroep",
+            "ERROR": "Fout",
+            "MESSAGE": "Bericht",
+            "NOTICE": "Attentie",
+            "WARNING": "Waarschuwing",
+            "JCLOSE": "Sluiten",
+            "JOK": "Ok",
+            "JOPEN": "Open"
+        },
+        "bootstrap.dropdown": {
+            ".dropdown-toggle": {
+                "flip": true,
+                "boundary": "scrollParent",
+                "reference": "toggle",
+                "display": "dynamic",
+                "popperConfig": true
+            }
+        },
+        "system.paths": {
+            "root": "",
+            "rootFull": "https:\/\/bibliorura.nl\/",
+            "base": "",
+            "baseFull": "https:\/\/bibliorura.nl\/"
+        },
+        "csrf.token": "3e6c6effb07e02b6d2abc5794f423e01"
+    }</script>
+    <script src="/media/system/js/core.min.js?37ffe4186289eba9c5df81bea44080aff77b9684"></script>
+    <script src="/media/vendor/bootstrap/js/bootstrap-es5.min.js?5.3.2" nomodule="" defer=""></script>
+    <script src="/media/system/js/messages-es5.min.js?c29829fd2432533d05b15b771f86c6637708bd9d" nomodule=""
+            defer=""></script>
+    <script src="/media/vendor/bootstrap/js/dropdown.min.js?5.3.2" type="module"></script>
+    <script src="/media/system/js/messages.min.js?7f7aa28ac8e8d42145850e8b45b3bc82ff9a6411" type="module"></script>
+    <script src="/media/com_oclcwise/site/js/sha256.js"></script>
+    <script src="/media/com_oclcwise/site/js/search.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfQA5QUAAAAALZSyuiKQOy00Y30kjca0V6JOlkf"></script>
+    <script src="/media/com_oclcwise/site/js/login.js"></script>
+    <script src="/templates/yootheme/vendor/assets/uikit/dist/js/uikit.min.js?4.4.10"></script>
+    <script src="/templates/yootheme/vendor/assets/uikit/dist/js/uikit-icons.min.js?4.4.10"></script>
+    <script src="/templates/yootheme/js/theme.js?4.4.10"></script>
+    <script>if (typeof window.grecaptcha !== 'undefined') {
+        grecaptcha.ready(function () {
+            grecaptcha.execute("6LfQA5QUAAAAALZSyuiKQOy00Y30kjca0V6JOlkf", {action: 'homepage'});
+        });
+    }</script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ZS4TG8ME0K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZS4TG8ME0K');
+    </script>
+    <script>window.yootheme ||= {};
+    var $theme = yootheme.theme = {
+        "i18n": {
+            "close": {"label": "Close"},
+            "totop": {"label": "Back to top"},
+            "marker": {"label": "Open"},
+            "navbarToggleIcon": {"label": "Open menu"},
+            "paginationPrevious": {"label": "Previous page"},
+            "paginationNext": {"label": "Next page"},
+            "searchIcon": {"toggle": "Open Search", "submit": "Submit Search"},
+            "slider": {
+                "next": "Next slide",
+                "previous": "Previous slide",
+                "slideX": "Slide %s",
+                "slideLabel": "%s of %s"
+            },
+            "slideshow": {
+                "next": "Next slide",
+                "previous": "Previous slide",
+                "slideX": "Slide %s",
+                "slideLabel": "%s of %s"
+            },
+            "lightboxPanel": {
+                "next": "Next slide",
+                "previous": "Previous slide",
+                "slideLabel": "%s of %s",
+                "close": "Close"
+            }
+        }
+    };</script>
+
+</head>
+<body class="hide-content">
+
+<div class="uk-hidden-visually uk-notification uk-notification-top-left uk-width-auto">
+    <div class="uk-notification-message">
+        <a href="#tm-main">Skip to main content</a>
+    </div>
+</div>
+
+<div class="tm-page-container uk-clearfix">
+
+
+    <div class="tm-page uk-margin-auto">
+
+
+        <header class="tm-header-mobile uk-hidden@m">
+
+
+            <div class="uk-navbar-container">
+
+                <div class="uk-container uk-container-expand">
+                    <nav class="uk-navbar"
+                         uk-navbar="{&quot;align&quot;:&quot;left&quot;,&quot;container&quot;:&quot;.tm-header-mobile&quot;,&quot;boundary&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;}">
+
+                        <div class="uk-navbar-left">
+
+                            <a href="https://bibliorura.nl/" aria-label="Terug naar home"
+                               class="uk-logo uk-navbar-item">
+                                <picture>
+                                    <source type="image/webp"
+                                            srcset="/templates/yootheme/cache/07/Bibliorura_logolang_CMYK-600px-07427581.webp 300w"
+                                            sizes="(min-width: 300px) 300px">
+                                    <img alt="" loading="eager"
+                                         src="/templates/yootheme/cache/01/Bibliorura_logolang_CMYK-600px-01d6688c.jpeg"
+                                         width="300" height="107">
+                                </picture>
+                            </a>
+
+
+                        </div>
+
+
+                        <div class="uk-navbar-right">
+
+
+                            <a uk-toggle="" href="#tm-dialog-mobile" class="uk-navbar-toggle" role="button"
+                               aria-label="Open menu">
+
+
+                                <div uk-navbar-toggle-icon="" class="uk-icon uk-navbar-toggle-icon">
+                                    <svg width="20" height="20" viewBox="0 0 20 20">
+                                        <style>.uk-navbar-toggle-icon svg & gt
+
+                                        ;
+                                        [class*="line-"] {
+                                            transition: 0.2s ease-in-out;
+                                            transition-property: transform, opacity;
+                                            transform-origin: center;
+                                            opacity: 1
+                                        }
+
+                                        .uk-navbar-toggle-icon svg & gt
+
+                                        ;
+                                        .line-3 {
+                                            opacity: 0
+                                        }
+
+                                        .uk-navbar-toggle-animate[aria-expanded="true"] svg & gt
+
+                                        ;
+                                        .line-3 {
+                                            opacity: 1
+                                        }
+
+                                        .uk-navbar-toggle-animate[aria-expanded="true"] svg & gt
+
+                                        ;
+                                        .line-2 {
+                                            transform: rotate(45deg)
+                                        }
+
+                                        .uk-navbar-toggle-animate[aria-expanded="true"] svg & gt
+
+                                        ;
+                                        .line-3 {
+                                            transform: rotate(-45deg)
+                                        }
+
+                                        .uk-navbar-toggle-animate[aria-expanded="true"] svg & gt
+
+                                        ;
+                                        .line-1, .uk-navbar-toggle-animate[aria-expanded="true"] svg & gt
+
+                                        ;
+                                        .line-4 {
+                                            opacity: 0
+                                        }
+
+                                        .uk-navbar-toggle-animate[aria-expanded="true"] svg & gt
+
+                                        ;
+                                        .line-1 {
+                                            transform: translateY(6px) scaleX(0)
+                                        }
+
+                                        .uk-navbar-toggle-animate[aria-expanded="true"] svg & gt
+
+                                        ;
+                                        .line-4 {
+                                            transform: translateY(-6px) scaleX(0)
+                                        }</style>
+                                        <rect width="20" height="2" y="3" class="line-1"></rect>
+                                        <rect width="20" height="2" y="9" class="line-2"></rect>
+                                        <rect width="20" height="2" y="9" class="line-3"></rect>
+                                        <rect width="20" height="2" y="15" class="line-4"></rect>
+                                    </svg>
+                                </div>
+
+
+                            </a>
+
+                        </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+
+            <div id="tm-dialog-mobile" uk-offcanvas="container: true; overlay: true" mode="slide" flip=""
+                 class="uk-offcanvas">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column" role="dialog" aria-modal="true">
+
+                    <button class="uk-offcanvas-close uk-close-large uk-icon uk-close" type="button" uk-close=""
+                            uk-toggle="cls: uk-close-large; mode: media; media: @s" aria-label="Close">
+                        <svg width="20" height="20" viewBox="0 0 20 20">
+                            <line fill="none" stroke="#000" stroke-width="1.4" x1="1" y1="1" x2="19" y2="19"></line>
+                            <line fill="none" stroke="#000" stroke-width="1.4" x1="19" y1="1" x2="1" y2="19"></line>
+                        </svg>
+                    </button>
+
+                    <div class="uk-margin-auto-bottom">
+
+                        <div class="uk-panel" id="module-menu-dialog-mobile">
+
+
+                            <ul class="uk-nav uk-nav-default">
+
+                                <li class="item-435 uk-active"><a href="/">Home</a></li>
+                                <li class="item-615 uk-parent"><a href="/wise-apps/opac/4799/home">Catalogus</a>
+                                    <ul class="uk-nav-sub">
+
+                                        <li class="item-701"><a href="/wise-apps/opac/4799/new-arrivals">Aanwinsten</a>
+                                        </li>
+                                        <li class="item-1734"><a href="/catalogusnieuw/welkboek">WelkBoek</a></li>
+                                    </ul>
+                                </li>
+                                <li class="item-632 uk-parent"><a href="/diensten">Diensten</a>
+                                    <ul class="uk-nav-sub">
+
+                                        <li class="item-1731"><a href="/diensten/biebprinten">Biebprinten</a></li>
+                                        <li class="item-1570"><a href="/diensten/bibliotheek-wise-app">Bibliotheek Wise
+                                            App</a></li>
+                                        <li class="item-661"><a href="/diensten/boekendienst-aan-huis">Boekendienst aan
+                                            Huis</a></li>
+                                        <li class="item-1679"><a href="/diensten/digitalebronnen">Digitale bronnen</a>
+                                        </li>
+                                        <li class="item-1310"><a href="/diensten/herinneringskoffers">Herinneringskoffers</a>
+                                        </li>
+                                        <li class="item-1569"><a href="/diensten/donorregister">Het nieuwe
+                                            donorregister</a></li>
+                                        <li class="item-662"><a href="/diensten/leesclubs">Leesclubs</a></li>
+                                        <li class="item-987"><a href="/diensten/passend-lezen">Passend lezen</a></li>
+                                        <li class="item-1877"><a href="/diensten/spreekuren">Spreekuren</a></li>
+                                        <li class="item-1147"><a href="/diensten/voorlezen-aan-ouderen">Voorlezen aan
+                                            ouderen</a></li>
+                                        <li class="item-1735"><a href="/diensten/welkboek2">WelkBoek</a></li>
+                                        <li class="item-553"><a href="/diensten/werken-en-studeren">Werken en
+                                            studeren</a></li>
+                                        <li class="item-1523"><a href="/diensten/wetenschappelijke-boeken-lenen">Wetenschappelijke
+                                            boeken lenen</a></li>
+                                        <li class="item-1215"><a href="/diensten/vergaderzaal">Zaalhuur</a></li>
+                                    </ul>
+                                </li>
+                                <li class="item-629 uk-parent"><a href="/service">Klantenservice</a>
+                                    <ul class="uk-nav-sub">
+
+                                        <li class="item-1628"><a href="/service/abonnementen-tarieven">Abonnementen
+                                            &amp; tarieven</a></li>
+                                        <li class="item-1083"><a href="/service/afhaalpunten-vrijwilligersbibliotheken">Afhaalpunten
+                                            vrijwilligersbibliotheken</a></li>
+                                        <li class="item-1407"><a href="/service/baby-en-peuterbibliotheken">Baby- en
+                                            peuterbibliotheken</a></li>
+                                        <li class="item-638"><a href="/service/openingstijden">Openingstijden</a></li>
+                                        <li class="item-644"><a
+                                            href="https://www.bibliorura.nl/images/pdf/24/Uitleenreglement_24.pdf"
+                                            target="_blank">Uitleenreglement</a></li>
+                                        <li class="item-643"><a href="/service/faq">Veelgestelde vragen</a></li>
+                                        <li class="item-1954"><a href="/service/nieuwe-inlog">Nieuwe inlog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="item-1636 uk-parent"><a href="/jeugd">Jeugd</a>
+                                    <ul class="uk-nav-sub">
+
+                                        <li class="item-1907"><a href="/jeugd/boekstart">BoekStart 0 - 4 jaar</a></li>
+                                        <li class="item-1872"><a href="https://bibliorura.nl/jeugd0-12">Jeugd 0 - 12
+                                            jaar</a></li>
+                                        <li class="item-1873"><a href="https://bibliorura.nl/jongeren13-20">Jongeren 13
+                                            - 20 jaar</a></li>
+                                        <li class="item-1957"><a href="/jeugd/kinderopvang">Kinderopvang</a></li>
+                                        <li class="item-1874"><a href="https://bibliorura.nl/educatiefaanbod-po">Primair
+                                            onderwijs</a></li>
+                                        <li class="item-1875"><a href="https://bibliorura.nl/educatiefaanbod-vo">Voortgezet
+                                            onderwijs</a></li>
+                                        <li class="item-2037"><a href="/jeugd/boekenweek-van-jongeren-2024">Boekenweek
+                                            van jongeren</a></li>
+                                        <li class="item-2040"><a href="/jeugd/breinstein-kindercolleges">BreinStein
+                                            Kindercolleges</a></li>
+                                    </ul>
+                                </li>
+                                <li class="item-1669"><a href="/ido">
+                                    <div>Informatiepunt
+                                        <div class="uk-nav-subtitle">Digitale Overheid</div>
+                                    </div>
+                                </a></li>
+                                <li class="item-1885 uk-parent"><a href="/digitaalhuis">digiTaalhuis</a>
+                                    <ul class="uk-nav-sub">
+
+                                        <li class="item-1883"><a href="/digitaalhuis/laaggeletterdheid">Laaggeletterdheid</a>
+                                        </li>
+                                        <li class="item-1905"><a href="/digitaalhuis/taalcafe">Taalcafé</a></li>
+                                        <li class="item-1906"><a href="/digitaalhuis/spreekuren">Spreekuren</a></li>
+                                        <li class="item-1916"><a href="/digitaalhuis/digitips">DigiTips</a></li>
+                                    </ul>
+                                </li>
+                                <li class="item-1952"><a href="/single-identity">Eén inlogaccount</a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </header>
+
+
+        <div class="tm-toolbar tm-toolbar-default uk-visible@m">
+            <div class="uk-container uk-flex uk-flex-middle">
+
+
+                <div class="uk-margin-auto-left">
+                    <div class="uk-grid-medium uk-child-width-auto uk-flex-middle uk-grid"
+                         uk-grid="margin: uk-margin-small-top">
+                        <div class="uk-first-column">
+                            <div class="uk-panel" id="module-580">
+
+
+                                <div class="oclcwise-login ">
+
+
+                                    <a class="" href="/component/oclcwise/?task=openauth.initiatelogin&amp;Itemid=435"
+                                       oclc-login="">
+                                        Inloggen </a>
+
+
+                                    <span class="separator">
+				 | 			</span>
+
+
+                                    <a class="" href="/wise-apps/opac/4799/subscription/regular">
+                                        Lid worden </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-panel" id="module-tm-3">
+
+
+                                <ul class="uk-flex-inline uk-flex-middle uk-flex-nowrap uk-grid-small uk-grid"
+                                    uk-grid="">
+                                    <li class="uk-first-column"><a
+                                        href="https://www.facebook.com/pages/De-Bibliotheek-Bibliorura/214065598617174"
+                                        class="uk-preserve-width uk-icon-link" rel="noreferrer" target="_blank"><span
+                                        uk-icon="icon: facebook;" class="uk-icon"><svg width="20" height="20"
+                                                                                       viewBox="0 0 20 20"><path
+                                        d="M11,10h2.6l0.4-3H11V5.3c0-0.9,0.2-1.5,1.5-1.5H14V1.1c-0.3,0-1-0.1-2.1-0.1C9.6,1,8,2.4,8,5v2H5.5v3H8v8h3V10z"></path></svg></span></a>
+                                    </li>
+                                    <li><a href="https://www.instagram.com/bibliotheek_bibliorura/"
+                                           class="uk-preserve-width uk-icon-link" rel="noreferrer" target="_blank"><span
+                                        uk-icon="icon: instagram;" class="uk-icon"><svg width="20" height="20"
+                                                                                        viewBox="0 0 20 20"><path
+                                        d="M13.55,1H6.46C3.45,1,1,3.44,1,6.44v7.12c0,3,2.45,5.44,5.46,5.44h7.08c3.02,0,5.46-2.44,5.46-5.44V6.44 C19.01,3.44,16.56,1,13.55,1z M17.5,14c0,1.93-1.57,3.5-3.5,3.5H6c-1.93,0-3.5-1.57-3.5-3.5V6c0-1.93,1.57-3.5,3.5-3.5h8 c1.93,0,3.5,1.57,3.5,3.5V14z"></path><circle
+                                        cx="14.87" cy="5.26" r="1.09"></circle><path
+                                        d="M10.03,5.45c-2.55,0-4.63,2.06-4.63,4.6c0,2.55,2.07,4.61,4.63,4.61c2.56,0,4.63-2.061,4.63-4.61 C14.65,7.51,12.58,5.45,10.03,5.45L10.03,5.45L10.03,5.45z M10.08,13c-1.66,0-3-1.34-3-2.99c0-1.65,1.34-2.99,3-2.99s3,1.34,3,2.99 C13.08,11.66,11.74,13,10.08,13L10.08,13L10.08,13z"></path></svg></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <header class="tm-header uk-visible@m">
+
+
+            <div class="tm-headerbar-default tm-headerbar tm-headerbar-top">
+                <div class="uk-container uk-flex uk-flex-middle">
+
+                    <a href="https://bibliorura.nl/" aria-label="Terug naar home" class="uk-logo">
+                        <picture>
+                            <source type="image/webp"
+                                    srcset="/templates/yootheme/cache/07/Bibliorura_logolang_CMYK-600px-07427581.webp 300w"
+                                    sizes="(min-width: 300px) 300px">
+                            <img alt="" loading="eager"
+                                 src="/templates/yootheme/cache/01/Bibliorura_logolang_CMYK-600px-01d6688c.jpeg"
+                                 width="300" height="107">
+                        </picture>
+                    </a>
+
+
+                </div>
+            </div>
+
+
+            <div class="uk-navbar-container">
+
+                <div class="uk-container uk-flex uk-flex-middle">
+                    <nav class="uk-navbar uk-flex-auto"
+                         uk-navbar="{&quot;align&quot;:&quot;left&quot;,&quot;container&quot;:&quot;.tm-header&quot;,&quot;boundary&quot;:&quot;.tm-header .uk-navbar-container&quot;}">
+
+                        <div class="uk-navbar-left">
+
+                            <ul class="uk-navbar-nav">
+
+                                <li class="item-435 uk-active"><a href="/">Home</a></li>
+                                <li class="item-615 uk-parent"><a href="/wise-apps/opac/4799/home" role="button"
+                                                                  aria-haspopup="true">Catalogus</a>
+                                    <div class="uk-drop uk-navbar-dropdown">
+                                        <div>
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+
+                                                <li class="item-701"><a href="/wise-apps/opac/4799/new-arrivals">Aanwinsten</a>
+                                                </li>
+                                                <li class="item-1734"><a href="/catalogusnieuw/welkboek">WelkBoek</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-632 uk-parent"><a href="/diensten" role="button" aria-haspopup="true">Diensten</a>
+                                    <div class="uk-drop uk-navbar-dropdown">
+                                        <div>
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+
+                                                <li class="item-1731"><a href="/diensten/biebprinten">Biebprinten</a>
+                                                </li>
+                                                <li class="item-1570"><a href="/diensten/bibliotheek-wise-app">Bibliotheek
+                                                    Wise App</a></li>
+                                                <li class="item-661"><a href="/diensten/boekendienst-aan-huis">Boekendienst
+                                                    aan Huis</a></li>
+                                                <li class="item-1679"><a href="/diensten/digitalebronnen">Digitale
+                                                    bronnen</a></li>
+                                                <li class="item-1310"><a href="/diensten/herinneringskoffers">Herinneringskoffers</a>
+                                                </li>
+                                                <li class="item-1569"><a href="/diensten/donorregister">Het nieuwe
+                                                    donorregister</a></li>
+                                                <li class="item-662"><a href="/diensten/leesclubs">Leesclubs</a></li>
+                                                <li class="item-987"><a href="/diensten/passend-lezen">Passend lezen</a>
+                                                </li>
+                                                <li class="item-1877"><a href="/diensten/spreekuren">Spreekuren</a></li>
+                                                <li class="item-1147"><a href="/diensten/voorlezen-aan-ouderen">Voorlezen
+                                                    aan ouderen</a></li>
+                                                <li class="item-1735"><a href="/diensten/welkboek2">WelkBoek</a></li>
+                                                <li class="item-553"><a href="/diensten/werken-en-studeren">Werken en
+                                                    studeren</a></li>
+                                                <li class="item-1523"><a
+                                                    href="/diensten/wetenschappelijke-boeken-lenen">Wetenschappelijke
+                                                    boeken lenen</a></li>
+                                                <li class="item-1215"><a href="/diensten/vergaderzaal">Zaalhuur</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-629 uk-parent"><a href="/service" role="button" aria-haspopup="true">Klantenservice</a>
+                                    <div class="uk-drop uk-navbar-dropdown">
+                                        <div>
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+
+                                                <li class="item-1628"><a href="/service/abonnementen-tarieven">Abonnementen
+                                                    &amp; tarieven</a></li>
+                                                <li class="item-1083"><a
+                                                    href="/service/afhaalpunten-vrijwilligersbibliotheken">Afhaalpunten
+                                                    vrijwilligersbibliotheken</a></li>
+                                                <li class="item-1407"><a href="/service/baby-en-peuterbibliotheken">Baby-
+                                                    en peuterbibliotheken</a></li>
+                                                <li class="item-638"><a
+                                                    href="/service/openingstijden">Openingstijden</a></li>
+                                                <li class="item-644"><a
+                                                    href="https://www.bibliorura.nl/images/pdf/24/Uitleenreglement_24.pdf"
+                                                    target="_blank">Uitleenreglement</a></li>
+                                                <li class="item-643"><a href="/service/faq">Veelgestelde vragen</a></li>
+                                                <li class="item-1954"><a href="/service/nieuwe-inlog">Nieuwe inlog</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-1636 uk-parent"><a href="/jeugd" role="button" aria-haspopup="true">Jeugd</a>
+                                    <div class="uk-drop uk-navbar-dropdown">
+                                        <div>
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+
+                                                <li class="item-1907"><a href="/jeugd/boekstart">BoekStart 0 - 4
+                                                    jaar</a></li>
+                                                <li class="item-1872"><a href="https://bibliorura.nl/jeugd0-12">Jeugd 0
+                                                    - 12 jaar</a></li>
+                                                <li class="item-1873"><a href="https://bibliorura.nl/jongeren13-20">Jongeren
+                                                    13 - 20 jaar</a></li>
+                                                <li class="item-1957"><a href="/jeugd/kinderopvang">Kinderopvang</a>
+                                                </li>
+                                                <li class="item-1874"><a
+                                                    href="https://bibliorura.nl/educatiefaanbod-po">Primair
+                                                    onderwijs</a></li>
+                                                <li class="item-1875"><a
+                                                    href="https://bibliorura.nl/educatiefaanbod-vo">Voortgezet
+                                                    onderwijs</a></li>
+                                                <li class="item-2037"><a href="/jeugd/boekenweek-van-jongeren-2024">Boekenweek
+                                                    van jongeren</a></li>
+                                                <li class="item-2040"><a href="/jeugd/breinstein-kindercolleges">BreinStein
+                                                    Kindercolleges</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-1669"><a href="/ido">
+                                    <div>Informatiepunt
+                                        <div class="uk-navbar-subtitle">Digitale Overheid</div>
+                                    </div>
+                                </a></li>
+                                <li class="item-1885 uk-parent"><a href="/digitaalhuis" role="button"
+                                                                   aria-haspopup="true">digiTaalhuis</a>
+                                    <div class="uk-drop uk-navbar-dropdown">
+                                        <div>
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+
+                                                <li class="item-1883"><a href="/digitaalhuis/laaggeletterdheid">Laaggeletterdheid</a>
+                                                </li>
+                                                <li class="item-1905"><a href="/digitaalhuis/taalcafe">Taalcafé</a></li>
+                                                <li class="item-1906"><a href="/digitaalhuis/spreekuren">Spreekuren</a>
+                                                </li>
+                                                <li class="item-1916"><a href="/digitaalhuis/digitips">DigiTips</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-1952"><a href="/single-identity">Eén inlogaccount</a></li>
+                            </ul>
+
+                        </div>
+
+
+                    </nav>
+                </div>
+
+            </div>
+
+
+        </header>
+
+
+        <div class="tm-top uk-section-muted uk-section uk-section-xsmall">
+
+
+            <div class="uk-container">
+
+
+                <div class="uk-panel" id="module-582">
+
+
+                    <form action="/component/oclcwise/?task=search.search&amp;Itemid=435" method="post" wise-search=""
+                          data-settings="{&quot;server&quot;:&quot;https:\/\/webcat.hostedwise.nl&quot;,&quot;apikeyid&quot;:&quot;da084c5e-24f1-4b5c-bf10-dfb7ad7f0734&quot;,&quot;apikey&quot;:&quot;6ff5acdc-f0cd-4181-8870-d00612780d43&quot;,&quot;application&quot;:&quot;Joomla&quot;}">
+                        <div class="input-group mb-3">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+				<span data-scope-display="">
+					Alles				</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <button type="button" data-scope="wise.all" data-tab="0"
+                                            class="dropdown-item active">
+                                        Alles
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" data-scope="wise.title" data-tab="0" class="dropdown-item ">
+                                        Titel
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" data-scope="wise.author" data-tab="0" class="dropdown-item ">
+                                        Auteur
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" data-scope="wise.subject" data-tab="0" class="dropdown-item ">
+                                        Onderwerp
+                                    </button>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <button type="button" data-scope="site.search" data-tab="0" class="dropdown-item ">
+                                        Website
+                                    </button>
+                                </li>
+                            </ul>
+                            <input type="text" name="oclcsearch[string]" class="form-control search-box"
+                                   placeholder="Typ hier uw zoekopdracht in...">
+                            <ngb-typeahead-window class="dropdown-menu suggestions-popup"
+                                                  style="position: absolute; width: 100%; inset: 0px auto auto 0px; margin: 0px; z-index: 999; top: 58px;">
+                            </ngb-typeahead-window>
+                            <button class="btn btn-primary" type="submit">
+                                Zoeken
+                            </button>
+                        </div>
+                        <input type="hidden" name="oclcsearch[scope]" value="wise.all" data-scope-field="">
+                        <input type="hidden" name="oclcsearch[modid]" value="582">
+                        <input type="hidden" name="3e6c6effb07e02b6d2abc5794f423e01" value="1"></form>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <main id="tm-main">
+
+
+            <div id="system-message-container" aria-live="polite"></div>
+
+            <!-- Builder #page -->
+            <style class="uk-margin-remove-adjacent">#page\#0 * {
+                font-size: 17px;
+            }</style>
+            <div class="uk-section-default uk-section uk-section-small">
+
+
+                <div class="uk-container">
+                    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+                        <div class="uk-width-1-1">
+
+
+                            <div class="uk-margin">
+                                <a class="el-link" href="/campagne"><img
+                                    src="https://bibliorura.nl/templates/yootheme/cache/a2/Octi%20landelijke%20campagne%20boekenkast%201280%20x%20278%20mm-a26cae1e.webp"
+                                    class="el-image" alt="" loading="lazy"></a>
+
+                            </div>
+                            <div class="uk-panel uk-margin"><p><strong>Welkom bij jouw bibliotheek</strong> <br>Maak
+                                kennis met de bibliotheek van nu. De bibliotheek is namelijk een plek waar je veel meer
+                                kan dan ‘boeken, lezen en lenen ’. <br><strong>Ontdek <a href="/campagne">hier</a> wat
+                                    je allemaal kan!</strong></p></div>
+
+
+                        </div>
+                    </div>
+                    <div class="uk-grid tm-grid-expand uk-grid-margin" uk-grid="">
+                        <div class="uk-width-3-4@m uk-first-column">
+
+
+                            <div
+                                class="uk-card uk-card-default uk-card-body uk-margin-remove-first-child uk-margin uk-margin">
+
+                                <div class="uk-child-width-expand uk-grid" uk-grid="">
+                                    <div class="uk-width-1-2@m uk-first-column">
+                                        <ul class="el-nav uk-tab-left uk-tab"
+                                            uk-tab="connect: #js-0; itemNav: #js-1; animation: uk-animation-fade; media: @m  ;"
+                                            role="tablist" aria-orientation="vertical">
+                                            <li class="uk-active" role="presentation">
+                                                <a href="" aria-selected="true" role="tab" id="uk-tab-1"
+                                                   aria-controls="uk-tab-2">Halloween Speurtocht</a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="" aria-selected="false" tabindex="-1" role="tab" id="uk-tab-3"
+                                                   aria-controls="uk-tab-4">Roots: het slavernijverleden als bron voor
+                                                    een zoektocht</a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="" aria-selected="false" tabindex="-1" role="tab" id="uk-tab-5"
+                                                   aria-controls="uk-tab-6">Automatische incasso</a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="" aria-selected="false" tabindex="-1" role="tab" id="uk-tab-7"
+                                                   aria-controls="uk-tab-8">Cursus creatief schrijven voor kinderen</a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="" aria-selected="false" tabindex="-1" role="tab" id="uk-tab-9"
+                                                   aria-controls="uk-tab-10">Geef je mening over onze bibliotheek</a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="" aria-selected="false" tabindex="-1" role="tab" id="uk-tab-11"
+                                                   aria-controls="uk-tab-12">DigiTip Oktober: dieren of planten
+                                                    herkennen</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+
+                                        <div id="js-0" class="uk-switcher" style="touch-action: pan-y pinch-zoom;">
+                                            <div class="el-item uk-margin-remove-first-child uk-active" id="uk-tab-2"
+                                                 role="tabpanel" aria-labelledby="uk-tab-1">
+
+
+                                                <picture>
+                                                    <source type="image/webp"
+                                                            srcset="/templates/yootheme/cache/36/Kopie_van_Halloween_speurtocht-3622b07b.webp 354w"
+                                                            sizes="(min-width: 354px) 354px">
+                                                    <img
+                                                        src="/component/ajax/?p=image&amp;src=%7B%22file%22%3A%22images%2FAfbeelding+Nieuwsartikelen%2FKopie_van_Halloween_speurtocht.jpg%22%2C%22thumbnail%22%3A%22%2C%2C%22%7D&amp;hash=910236e5"
+                                                        width="354" height="500" class="el-image" alt="">
+                                                </picture>
+
+
+                                                <h3 class="el-title uk-margin-top uk-margin-remove-bottom"> Halloween
+                                                    Speurtocht </h3>
+
+
+                                                <div class="el-content uk-panel uk-text-small uk-margin-top">Speurneuzen
+                                                    gezocht!
+
+                                                    HALLOWEEN SPEURTOCHT
+                                                    Doe mee aan een griezelig leuke speurtocht in de bibliotheek!
+                                                    Durf jij op zoek te gaan naar de griez...
+                                                </div>
+
+                                                <div class="uk-margin-top"><a
+                                                    class="el-link uk-button uk-button-default uk-button-small"
+                                                    href="/halloween-speurtocht">Lees meer</a></div>
+
+
+                                            </div>
+                                            <div class="el-item uk-margin-remove-first-child" id="uk-tab-4"
+                                                 role="tabpanel" aria-labelledby="uk-tab-3">
+
+
+                                                <picture>
+                                                    <source type="image/webp"
+                                                            srcset="/templates/yootheme/cache/e9/Webartikel_slavernij-e9c9bb46.webp 768w, /templates/yootheme/cache/0e/Webartikel_slavernij-0e6edf59.webp 1024w, /templates/yootheme/cache/42/Webartikel_slavernij-42b2e67c.webp 1200w"
+                                                            sizes="(min-width: 1200px) 1200px">
+                                                    <img
+                                                        src="/templates/yootheme/cache/9a/Webartikel_slavernij-9a8e1c77.jpeg"
+                                                        width="1200" height="628" class="el-image" alt="">
+                                                </picture>
+
+
+                                                <h3 class="el-title uk-margin-top uk-margin-remove-bottom"> Roots: het
+                                                    slavernijverleden als bron voor een zoektocht </h3>
+
+
+                                                <div class="el-content uk-panel uk-text-small uk-margin-top">Roots: Het
+                                                    slavernijverleden als bron voor een zoektocht
+                                                    Zondag 27 oktober 2024&nbsp;|&nbsp;14.30-16.30 uur&nbsp;
+
+                                                    Kaartje(s) kopen
+
+
+                                                    Fotograaf Rens Ver...
+                                                </div>
+
+                                                <div class="uk-margin-top"><a
+                                                    class="el-link uk-button uk-button-default uk-button-small"
+                                                    href="/roots">Lees meer</a></div>
+
+
+                                            </div>
+                                            <div class="el-item uk-margin-remove-first-child" id="uk-tab-6"
+                                                 role="tabpanel" aria-labelledby="uk-tab-5">
+
+
+                                                <picture>
+                                                    <source type="image/webp"
+                                                            srcset="/templates/yootheme/cache/eb/Automatisch_Incasso_1200_x_628_px-ebb83c97.webp 768w, /templates/yootheme/cache/f6/Automatisch_Incasso_1200_x_628_px-f6366ed2.webp 1024w, /templates/yootheme/cache/1d/Automatisch_Incasso_1200_x_628_px-1d26933a.webp 1200w"
+                                                            sizes="(min-width: 1200px) 1200px">
+                                                    <img
+                                                        src="/templates/yootheme/cache/a6/Automatisch_Incasso_1200_x_628_px-a606c814.jpeg"
+                                                        width="1200" height="628" class="el-image" alt="">
+                                                </picture>
+
+
+                                                <h3 class="el-title uk-margin-top uk-margin-remove-bottom"> Automatische
+                                                    incasso </h3>
+
+
+                                                <div class="el-content uk-panel uk-text-small uk-margin-top">
+                                                    Betalen via automatische incasso is een makkelijke en veilige manier
+                                                    van betalen. Het abonnementsgeld wordt jaarlijks automatisch van je
+                                                    bankreke...
+                                                </div>
+
+                                                <div class="uk-margin-top"><a
+                                                    class="el-link uk-button uk-button-default uk-button-small"
+                                                    href="/nieuws/1551-automatische-incasso">Lees meer</a></div>
+
+
+                                            </div>
+                                            <div class="el-item uk-margin-remove-first-child" id="uk-tab-8"
+                                                 role="tabpanel" aria-labelledby="uk-tab-7">
+
+
+                                                <picture>
+                                                    <source type="image/webp"
+                                                            srcset="/templates/yootheme/cache/b2/Webartikel_cursus_creatief_schrijven_2-b2a13ab9.webp 628w"
+                                                            sizes="(min-width: 628px) 628px">
+                                                    <img
+                                                        src="/templates/yootheme/cache/63/Webartikel_cursus_creatief_schrijven_2-63ad731f.jpeg"
+                                                        width="628" height="316" class="el-image" alt="">
+                                                </picture>
+
+
+                                                <h3 class="el-title uk-margin-top uk-margin-remove-bottom"> Cursus
+                                                    creatief schrijven voor kinderen </h3>
+
+
+                                                <div class="el-content uk-panel uk-text-small uk-margin-top">De reis van
+                                                    heldinnen en helden
+                                                    Creatief schrijven voor kinderen
+
+                                                    Ik meld me aan!
+
+
+                                                    De reis
+                                                    Hou je van schrijven? Wil je nog beter lere...
+                                                </div>
+
+                                                <div class="uk-margin-top"><a
+                                                    class="el-link uk-button uk-button-default uk-button-small"
+                                                    href="/creatieve-schrijfcursus">Lees meer</a></div>
+
+
+                                            </div>
+                                            <div class="el-item uk-margin-remove-first-child" id="uk-tab-10"
+                                                 role="tabpanel" aria-labelledby="uk-tab-9">
+
+
+                                                <picture>
+                                                    <source type="image/webp"
+                                                            srcset="/templates/yootheme/cache/fd/Afbeelding_enquete_webartikel-fd1da168.webp 768w, /templates/yootheme/cache/81/Afbeelding_enquete_webartikel-8167c00e.webp 1024w, /templates/yootheme/cache/06/Afbeelding_enquete_webartikel-06eb5868.webp 1200w"
+                                                            sizes="(min-width: 1200px) 1200px">
+                                                    <img
+                                                        src="/templates/yootheme/cache/41/Afbeelding_enquete_webartikel-41029450.jpeg"
+                                                        width="1200" height="816" class="el-image" alt="">
+                                                </picture>
+
+
+                                                <h3 class="el-title uk-margin-top uk-margin-remove-bottom"> Geef je
+                                                    mening over onze bibliotheek </h3>
+
+
+                                                <div class="el-content uk-panel uk-text-small uk-margin-top">Hoe maken
+                                                    we jouw bibliotheekbezoek nóg leuker?
+
+                                                    Enquête invullen
+
+
+                                                    Jouw bibliotheek
+                                                    Je komt er regelmatig de krant lezen, je haalt er ...
+                                                </div>
+
+                                                <div class="uk-margin-top"><a
+                                                    class="el-link uk-button uk-button-default uk-button-small"
+                                                    href="/nieuws/1515-geef-je-mening-over-onze-bibliotheek">Lees
+                                                    meer</a></div>
+
+
+                                            </div>
+                                            <div class="el-item uk-margin-remove-first-child" id="uk-tab-12"
+                                                 role="tabpanel" aria-labelledby="uk-tab-11">
+
+
+                                                <picture>
+                                                    <source type="image/webp"
+                                                            srcset="/templates/yootheme/cache/12/DigiTip_Oktober-1279c1cc.webp 165w"
+                                                            sizes="(min-width: 165px) 165px">
+                                                    <img
+                                                        src="/templates/yootheme/cache/39/DigiTip_Oktober-39d2a9d4.jpeg"
+                                                        width="165" height="105" class="el-image" alt="">
+                                                </picture>
+
+
+                                                <h3 class="el-title uk-margin-top uk-margin-remove-bottom"> DigiTip
+                                                    Oktober: dieren of planten herkennen </h3>
+
+
+                                                <div class="el-content uk-panel uk-text-small uk-margin-top">Gratis apps
+                                                    om dieren of planten te herkennen
+                                                    Voor als je even niet weet welke plant of welk dier je voor je hebt
+
+
+                                                    Ken je dat? Je bent aan h...
+                                                </div>
+
+                                                <div class="uk-margin-top"><a
+                                                    class="el-link uk-button uk-button-default uk-button-small"
+                                                    href="/nieuws/1549-digitip-oktober">Lees meer</a></div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="uk-margin-small">
+
+
+                                <a class="el-content uk-width-1-1 uk-flex-inline uk-flex-center uk-flex-middle"
+                                   href="/nieuws">
+                                    <span class="uk-margin-small-right uk-icon" uk-icon="chevron-double-right"><svg
+                                        width="20" height="20" viewBox="0 0 20 20"><polyline fill="none" stroke="#000"
+                                                                                             stroke-width="1.03"
+                                                                                             points="10 6 14 10 10 14"></polyline><polyline
+                                        fill="none" stroke="#000" stroke-width="1.03"
+                                        points="6 6 10 10 6 14"></polyline></svg></span>
+                                    Lees meer berichten....
+
+                                </a>
+
+
+                            </div>
+                            <hr class="uk-margin-small uk-margin-remove-top uk-margin-remove-bottom">
+
+
+                        </div>
+                        <div class="uk-width-1-4@m">
+
+
+                            <div class="uk-margin uk-text-left">
+                                <div
+                                    class="uk-flex-middle uk-grid-small uk-child-width-auto uk-flex-left uk-grid uk-grid-stack"
+                                    uk-grid="">
+
+                                    <div class="el-item uk-first-column">
+
+
+                                        <a class="el-content uk-button uk-button-primary uk-button-small uk-flex-inline uk-flex-center uk-flex-middle"
+                                           href="https://bibliorura.nl/wise-apps/opac/4799/subscription/regular">
+                                            <span class="uk-margin-small-right uk-icon" uk-icon="arrow-right"><svg
+                                                width="20" height="20" viewBox="0 0 20 20"><polyline fill="none"
+                                                                                                     stroke="#000"
+                                                                                                     points="10 5 15 9.5 10 14"></polyline><line
+                                                fill="none" stroke="#000" x1="4" y1="9.5" x2="15" y2="9.5"></line></svg></span>
+                                            Lid worden
+
+                                        </a>
+
+                                    </div>
+
+
+                                    <div class="el-item uk-grid-margin uk-first-column">
+
+
+                                        <a class="el-content uk-button uk-button-primary uk-button-small uk-flex-inline uk-flex-center uk-flex-middle"
+                                           href="https://login.kb.nl/si/passwordreset/">
+                                            <span class="uk-margin-small-right uk-icon" uk-icon="arrow-right"><svg
+                                                width="20" height="20" viewBox="0 0 20 20"><polyline fill="none"
+                                                                                                     stroke="#000"
+                                                                                                     points="10 5 15 9.5 10 14"></polyline><line
+                                                fill="none" stroke="#000" x1="4" y1="9.5" x2="15" y2="9.5"></line></svg></span>
+                                            Wachtwoord vergeten
+
+                                        </a>
+
+                                    </div>
+
+
+                                    <div class="el-item uk-grid-margin uk-first-column">
+
+
+                                        <a class="el-content uk-button uk-button-primary uk-button-small uk-flex-inline uk-flex-center uk-flex-middle"
+                                           href="https://bibliorura.nl/wise-apps/opac/4799/subscription/newsletter">
+                                            <span class="uk-margin-small-right uk-icon" uk-icon="arrow-right"><svg
+                                                width="20" height="20" viewBox="0 0 20 20"><polyline fill="none"
+                                                                                                     stroke="#000"
+                                                                                                     points="10 5 15 9.5 10 14"></polyline><line
+                                                fill="none" stroke="#000" x1="4" y1="9.5" x2="15" y2="9.5"></line></svg></span>
+                                            Aanmelden nieuwsbrief
+
+                                        </a>
+
+                                    </div>
+
+
+                                    <div class="el-item uk-grid-margin uk-first-column">
+
+
+                                        <a class="el-content uk-button uk-button-primary uk-button-small uk-flex-inline uk-flex-center uk-flex-middle"
+                                           href="/component/rsform/?view=forms&amp;layout=edit&amp;formId=65">
+                                            <span class="uk-margin-small-right uk-icon" uk-icon="arrow-right"><svg
+                                                width="20" height="20" viewBox="0 0 20 20"><polyline fill="none"
+                                                                                                     stroke="#000"
+                                                                                                     points="10 5 15 9.5 10 14"></polyline><line
+                                                fill="none" stroke="#000" x1="4" y1="9.5" x2="15" y2="9.5"></line></svg></span>
+                                            Afspraak maken digiTaalhuis
+
+                                        </a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="uk-panel" id="page#0">
+
+
+                                <div style="width:102%; margin: auto;">
+
+                                    <div class="openinghours-notes"></div>
+
+                                    <div itemscope="" itemtype="https://schema.org/LocalBusiness" class="openinghours"
+                                         style="                             ">
+
+                                        <div style="display: none;">
+                                            <span itemprop="name"></span>
+                                            <span itemprop="description"></span>
+                                            <span itemprop="hasMap"></span>
+                                            <div itemprop="address" itemscope=""
+                                                 itemtype="https://schema.org/PostalAddress">
+                                                <span itemprop="streetAddress"></span>
+                                                <span itemprop="postalCode"></span>
+                                                <span itemprop="addressLocality"></span>
+                                                <span itemprop="addressRegion"></span>
+                                                <span itemprop="addressCountry"></span>
+                                            </div>
+                                            <div itemprop="geo" itemscope=""
+                                                 itemtype="https://schema.org/GeoCoordinates">
+                                                <span itemprop="latitude"></span>
+                                                <span itemprop="longitude"></span>
+                                            </div>
+                                            <span itemprop="telephone"></span>
+                                            <span itemprop="email"></span>
+                                            <span itemprop="url"></span>
+                                            <span itemprop="priceRange"></span>
+                                            <span itemprop="image"></span>
+                                        </div>
+
+
+                                        <div class="openinghours-eachday openinghours-Mo">
+
+                                            <div class="openinghours-day" style="width:32%;text-align:left; ">maandag
+                                            </div>
+
+                                            <div class="openinghours-date" style="width:23%;text-align:center; ">
+                                                14-10
+                                            </div>
+
+
+                                            <div class="openinghours-time" style="width:45%;text-align:right;">
+                                                <meta itemprop="openingHours" content="Mo 13:00-18:00">
+                                                <div class="openinghours-time1">13:00 - 18:00</div>
+                                                <div class="openinghours-time2"></div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="openinghours-eachday openinghours-Tu">
+
+                                            <div class="openinghours-day" style="width:32%;text-align:left; ">dinsdag
+                                            </div>
+
+                                            <div class="openinghours-date" style="width:23%;text-align:center; ">
+                                                15-10
+                                            </div>
+
+
+                                            <div class="openinghours-time" style="width:45%;text-align:right;">
+                                                <meta itemprop="openingHours" content="Tu 11:00-20:00">
+                                                <div class="openinghours-time1">11:00 - 20:00</div>
+                                                <div class="openinghours-time2"></div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="openinghours-eachday openinghours-We">
+
+                                            <div class="openinghours-day" style="width:32%;text-align:left; ">woensdag
+                                            </div>
+
+                                            <div class="openinghours-date" style="width:23%;text-align:center; ">
+                                                16-10
+                                            </div>
+
+
+                                            <div class="openinghours-time" style="width:45%;text-align:right;">
+                                                <meta itemprop="openingHours" content="We 11:00-18:00">
+                                                <div class="openinghours-time1">11:00 - 18:00</div>
+                                                <div class="openinghours-time2"></div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="openinghours-eachday openinghours-Th">
+
+                                            <div class="openinghours-day" style="width:32%;text-align:left; ">
+                                                donderdag
+                                            </div>
+
+                                            <div class="openinghours-date" style="width:23%;text-align:center; ">
+                                                17-10
+                                            </div>
+
+
+                                            <div class="openinghours-time" style="width:45%;text-align:right;">
+                                                <meta itemprop="openingHours" content="Th 11:00-18:00">
+                                                <div class="openinghours-time1">11:00 - 18:00</div>
+                                                <div class="openinghours-time2"></div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="openinghours-eachday openinghours-Fr"
+                                             style="font-weight:bold; font-style:normal; color:#ff7320;">
+
+                                            <div class="openinghours-day" style="width:32%;text-align:left; ">vrijdag
+                                            </div>
+
+                                            <div class="openinghours-date" style="width:23%;text-align:center; ">
+                                                18-10
+                                            </div>
+
+
+                                            <div class="openinghours-time" style="width:45%;text-align:right;">
+                                                <meta itemprop="openingHours" content="Fr 11:00-18:00">
+                                                <div class="openinghours-time1">11:00 - 18:00</div>
+                                                <div class="openinghours-time2"></div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="openinghours-eachday openinghours-Sa">
+
+                                            <div class="openinghours-day" style="width:32%;text-align:left; ">zaterdag
+                                            </div>
+
+                                            <div class="openinghours-date" style="width:23%;text-align:center; ">
+                                                19-10
+                                            </div>
+
+
+                                            <div class="openinghours-time" style="width:45%;text-align:right;">
+                                                <meta itemprop="openingHours" content="Sa 10:00-17:00">
+                                                <div class="openinghours-time1">10:00 - 17:00</div>
+                                                <div class="openinghours-time2"></div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="openinghours-eachday openinghours-Su">
+
+                                            <div class="openinghours-day" style="width:32%;text-align:left; ">zondag
+                                            </div>
+
+                                            <div class="openinghours-date" style="width:23%;text-align:center; ">
+                                                20-10
+                                            </div>
+
+
+                                            <div class="openinghours-time" style="width:45%;text-align:right;">
+                                                <meta itemprop="openingHours" content="Su 13:00-17:00">
+                                                <div class="openinghours-time1">13:00 - 17:00</div>
+                                                <div class="openinghours-time2"></div>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="openinghours-open"><p style="text-align: center;">Open</p></div>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+                        <div class="uk-width-1-1">
+
+
+                            <div class="uk-margin uk-text-center">
+                                <div
+                                    class="uk-grid uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-medium uk-grid-match"
+                                    uk-grid="">
+                                    <div class="uk-first-column">
+                                        <div class="el-item uk-grid-item-match">
+                                            <a class="uk-card uk-card-default uk-card-small uk-card-hover uk-link-toggle"
+                                               href="/activiteiten">
+
+
+                                                <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                    <h3 class="el-title uk-h4 uk-margin-top uk-margin-remove-bottom">
+                                                        Activiteiten </h3>
+
+
+                                                </div>
+                                                <div class="uk-card-media-bottom">
+
+
+                                                    <img src="/images/rmd/site/Activiteiten.jpg" alt="" loading="lazy"
+                                                         class="el-image">
+
+
+                                                </div>
+
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="el-item uk-grid-item-match">
+                                            <a class="uk-card uk-card-default uk-card-small uk-card-hover uk-link-toggle"
+                                               href="https://bibliorura.nl/service/abonnementen-tarieven">
+
+
+                                                <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                    <h3 class="el-title uk-h4 uk-margin-top uk-margin-remove-bottom">
+                                                        Abonnementen </h3>
+
+
+                                                </div>
+                                                <div class="uk-card-media-bottom">
+
+
+                                                    <img src="/images/rmd/site/Homepage_-_abonnementen.jpg" alt=""
+                                                         loading="lazy" class="el-image">
+
+
+                                                </div>
+
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="el-item uk-grid-item-match">
+                                            <a class="uk-card uk-card-default uk-card-small uk-card-hover uk-link-toggle"
+                                               href="/digitaalhuis">
+
+
+                                                <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                    <h3 class="el-title uk-h4 uk-margin-top uk-margin-remove-bottom">
+                                                        digiTaalhuis </h3>
+
+
+                                                </div>
+                                                <div class="uk-card-media-bottom">
+
+
+                                                    <img src="/images/rmd/site/Homepage_-_digiTaalhuis.jpg" alt=""
+                                                         loading="lazy" class="el-image">
+
+
+                                                </div>
+
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+                        <div class="uk-width-1-1">
+
+
+                            <div class="uk-margin uk-text-center">
+                                <div
+                                    class="uk-grid uk-child-width-1-1 uk-child-width-1-3@m uk-grid-medium uk-grid-match"
+                                    uk-grid="">
+                                    <div class="uk-first-column">
+                                        <div class="el-item uk-grid-item-match">
+                                            <a class="uk-card uk-card-default uk-card-small uk-card-hover uk-link-toggle"
+                                               href="/boeken-top-5">
+
+
+                                                <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                    <h3 class="el-title uk-h4 uk-margin-top uk-margin-remove-bottom">
+                                                        Boeken Top 5 </h3>
+
+
+                                                </div>
+                                                <div class="uk-card-media-bottom">
+
+
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="/templates/yootheme/cache/bd/BoekenTop5_Oktober_Boekenbaas_Jur-bd80a7a7.webp 699w, /templates/yootheme/cache/a3/BoekenTop5_Oktober_Boekenbaas_Jur-a39843b9.webp 700w"
+                                                                sizes="(min-width: 700px) 700px">
+                                                        <img
+                                                            src="/templates/yootheme/cache/0e/BoekenTop5_Oktober_Boekenbaas_Jur-0ef44e37.jpeg"
+                                                            width="700" height="316" alt="" loading="lazy"
+                                                            class="el-image">
+                                                    </picture>
+
+
+                                                </div>
+
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="el-item uk-grid-item-match">
+                                            <a class="uk-card uk-card-default uk-card-small uk-card-hover uk-link-toggle"
+                                               href="/bibliotheekonline">
+
+
+                                                <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                    <h3 class="el-title uk-h4 uk-margin-top uk-margin-remove-bottom"> De
+                                                        bibliotheek online </h3>
+
+
+                                                </div>
+                                                <div class="uk-card-media-bottom">
+
+
+                                                    <img src="/images/Homepage_-_online_bibliotheek.jpg" alt=""
+                                                         loading="lazy" class="el-image">
+
+
+                                                </div>
+
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="el-item uk-grid-item-match">
+                                            <a class="uk-card uk-card-default uk-card-small uk-card-hover uk-link-toggle"
+                                               href="/catalogusnieuw/welkboek">
+
+
+                                                <div class="uk-card-body uk-margin-remove-first-child">
+
+
+                                                    <h3 class="el-title uk-h4 uk-margin-top uk-margin-remove-bottom">
+                                                        Welk Boek </h3>
+
+
+                                                </div>
+                                                <div class="uk-card-media-bottom">
+
+
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="/templates/yootheme/cache/aa/WelkBoek_afbeelding-aafab278.webp 768w, /templates/yootheme/cache/07/WelkBoek_afbeelding-07d21822.webp 1024w, /templates/yootheme/cache/17/WelkBoek_afbeelding-178082a0.webp 1366w, /templates/yootheme/cache/68/WelkBoek_afbeelding-68a8f72f.webp 1600w, /templates/yootheme/cache/df/WelkBoek_afbeelding-dfc0cc12.webp 1920w, /templates/yootheme/cache/d9/WelkBoek_afbeelding-d9c7adf5.webp 5000w"
+                                                                sizes="(min-width: 5000px) 5000px">
+                                                        <img
+                                                            src="/templates/yootheme/cache/39/WelkBoek_afbeelding-390e70d2.jpeg"
+                                                            width="5000" height="2617" alt="" loading="lazy"
+                                                            class="el-image">
+                                                    </picture>
+
+
+                                                </div>
+
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="uk-section-default uk-section">
+
+
+                <div class="uk-container">
+                    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+                        <div class="uk-width-1-1">
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </main>
+
+
+        <footer>
+            <!-- Builder #footer -->
+            <style class="uk-margin-remove-adjacent">#footer\#0 .el-content {
+                font-size: 0.9rem;
+            }
+
+            #footer\#1 .el-content {
+                font-size: 0.9rem;
+            }
+
+            #footer\#2 .el-content {
+                font-size: 0.9rem;
+            }
+
+            #footer\#3 .el-content {
+                font-size: 0.9rem;
+            }
+
+            #footer\#4 h1 {
+                background-color: green;
+            }
+
+            #footer\#4 div {
+                background-color: #3c3c3c;
+            }</style>
+            <div class="uk-section-secondary uk-section uk-section-small"
+                 uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-fade; delay: false;">
+
+
+                <div class="uk-container">
+                    <div id="footer#4" class="uk-grid tm-grid-expand uk-grid-margin" uk-grid="">
+                        <div class="uk-width-1-2@s uk-width-1-4@m uk-first-column">
+
+
+                            <ul class="uk-list" id="footer#0" uk-scrollspy-class="" style="opacity: 0;">
+
+
+                                <li class="el-item">
+                                    <a href="/contact22" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child"><p>Contact</p></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="/historiehuis" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Historiehuis
+</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="/brasserie" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Brasserie
+</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="/over-de-bibliotheek" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Over de bibliotheek</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+
+                        </div>
+                        <div class="uk-width-1-2@s uk-width-1-4@m">
+
+
+                            <ul class="uk-list" id="footer#1" uk-scrollspy-class="" style="opacity: 0;">
+
+
+                                <li class="el-item">
+                                    <a href="/anbi" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">ANBI / Raad van toezicht</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="https://bibliorura.nl/images/pdf/24/DigitaalPublieksjaarverslag2023_Bibliorura.pdf"
+                                       target="_blank" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Jaarverslag
+</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="/privacyverklaring" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Privacyverklaring
+</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="/cookies" target="_blank" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child"><p>Cookies</p></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="/missie-en-motto" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Missie en Motto</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+
+                        </div>
+                        <div class="uk-width-1-2@s uk-width-1-4@m">
+
+
+                            <ul class="uk-list" id="footer#2" uk-scrollspy-class="" style="opacity: 0;">
+
+
+                                <li class="el-item">
+
+                                    <div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column"><span
+                                            class="el-image uk-text-success uk-icon" uk-icon="icon: minus;"><svg
+                                            width="20" height="20" viewBox="0 0 20 20"><rect width="18" height="1" x="1"
+                                                                                             y="9"></rect></svg></span>
+                                        </div>
+                                        <div>
+                                            <div class="el-content uk-panel"></div>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+
+                            </ul>
+
+
+                        </div>
+                        <div class="uk-width-1-2@s uk-width-1-4@m">
+
+
+                            <ul class="uk-list" id="footer#3" uk-scrollspy-class="" style="opacity: 0;">
+
+
+                                <li class="el-item">
+                                    <a href="https://bibliorura..nl/disclaimer" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Disclaimer</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="https://bibliorura..nl/colofon" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Colofon</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="el-item">
+                                    <a href="https://bibliorura.nl/sitemap" class="uk-link-toggle">
+                                        <div
+                                            class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle uk-grid"
+                                            uk-grid="">
+                                            <div class="uk-width-auto uk-link uk-first-column"><span
+                                                class="el-image uk-icon" uk-icon="icon: chevron-right;"><svg width="20"
+                                                                                                             height="20"
+                                                                                                             viewBox="0 0 20 20"><polyline
+                                                fill="none" stroke="#000" stroke-width="1.03"
+                                                points="7 4 13 10 7 16"></polyline></svg></span></div>
+                                            <div>
+                                                <div class="el-content uk-panel"><span
+                                                    class="uk-link uk-margin-remove-last-child">Sitemap
+</span></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+
+    </div>
+
+</div>
+
+
+<div>
+    <div class="grecaptcha-badge" data-style="bottomright"
+         style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
+        <div class="grecaptcha-logo">
+            <iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-h8yh3vpnb6rp" frameborder="0"
+                    scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                    src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfQA5QUAAAAALZSyuiKQOy00Y30kjca0V6JOlkf&amp;co=aHR0cHM6Ly9iaWJsaW9ydXJhLm5sOjQ0Mw..&amp;hl=en&amp;v=lqsTZ5beIbCkK4uGEGv9JmUR&amp;size=invisible&amp;cb=nkssrweynhas"></iframe>
+        </div>
+        <div class="grecaptcha-error"></div>
+        <textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response"
+                  style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+    </div>
+    <iframe style="display: none;"></iframe>
+</div>
+</body>
+</html>

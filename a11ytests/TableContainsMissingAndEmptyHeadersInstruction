@@ -1,0 +1,11 @@
+please generate an html page with a bit more example content which will include:
+- a table element
+- a table element where some descendent th elements will be empty
+- a table element excluding any descendent th elements
+- an element with an attribute role="table" which will contain elements with role="columnheader"
+- an element with an attribute role="table" which will contain elements with role="columnheader" where some of these headers will be empty
+- an element with an attribute role="table" which will contain elements with role="rowheader"
+- an element with an attribute role="table" which will contain elements with role="rowheader" where some of these headers will be empty
+- an element with an attribute role="table" which will not contain elements with role="rowheader" or role="columnheader"
+
+and shuffle the elements around so they are not in the exact order and make the content sensible

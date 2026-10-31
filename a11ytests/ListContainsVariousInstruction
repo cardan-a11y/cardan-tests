@@ -1,0 +1,15 @@
+I need an HTML page with sensible content which will contain the following:
+- at least one of each UL, OL, element with role='list' attribute with at least 5 items each. each of these 5 items need to be a mix of LI and elements with role='listitem'
+- UL which amongst other children contains elements which are not LI or elements with attribute role='listitem'
+- OL which amongst other children contains elements which are not LI or elements with attribute role='listitem'
+- element with role='list' attribute which amongst other children contains elements which are not LI or elements with attribute role='listitem'
+- few LI elements who by inheritance do not belong to any of OL, UL, element with an attribute role='list'
+- few elements with attribute role='list' who by inheritance do not belong to any of OL, UL, element with an attribute role='list'
+- a DL with at least 5 items which include DD and DT
+- a DL which has DT and DD items grouped in DIV elements; at least 3 groups
+- a DL which amongst DD, DT and DIV elements have other HTML elements
+- a DL containing at least 3 DIV elements. these DIV elements should contain a mix of DT, DD and some other HTML elements which are not supposed to be in DL
+- a DT element who by inheritance does not belong to a DL or a div which is a direct descendant of a DL
+- a DD element who by inheritance does not belong to a DL or a div which is a direct descendant of a DL
+- a OL which as direct descendants has a couple of DIVs. thses DIVs each contain a few LI elements
+- a DL which contains a few DIVs. Each of these DIVs contains another few DIVs representing the second level. Each of these second level divs needs to have a few DD and DT

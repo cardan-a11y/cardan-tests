@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogpost with SVG Variations</title>
+</head>
+<body>
+
+<header>
+    <h1>Understanding SVG Accessibility in Web Design</h1>
+</header>
+
+<section>
+    <p>SVG (Scalable Vector Graphics) is a powerful tool for creating vector images on the web. However, ensuring that
+        SVGs are accessible is important for users who rely on screen readers and other assistive technologies. In this
+        blog post, we explore various ways to enhance the accessibility of SVG elements using attributes like `title`,
+        `aria-label`, `aria-hidden`, and `role="presentation"`.</p>
+
+    <h2>Accessible SVGs</h2>
+
+    <p>Below are examples of SVGs with accessibility features:</p>
+
+    <!-- SVG with a title element -->
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <title>Circle Icon</title>
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red"/>
+    </svg>
+
+    <!-- SVG with aria-label -->
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" aria-label="Square Icon">
+        <rect width="80" height="80" x="10" y="10" stroke="blue" stroke-width="3" fill="green"/>
+    </svg>
+
+    <!-- SVG with aria-hidden -->
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <polygon points="50,15 100,100 0,100" fill="purple"/>
+    </svg>
+
+    <!-- SVG with role="presentation" -->
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" role="presentation">
+        <ellipse cx="50" cy="50" rx="40" ry="20" stroke="orange" stroke-width="3" fill="yellow"/>
+    </svg>
+
+    <!-- SVG with aria-labelledby -->
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" aria-labelledby="triangle-title">
+        <title id="triangle-title">Triangle Icon</title>
+        <polygon points="50,15 100,100 0,100" fill="blue"/>
+    </svg>
+
+    <h2>Non-Accessible SVGs</h2>
+
+    <p>Not all SVGs include accessibility attributes. Below are examples of SVGs without attributes like `title`,
+        `aria-label`, or `aria-hidden`:</p>
+
+    <!-- SVG without any title or aria attributes -->
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue"/>
+    </svg>
+
+    <!-- Another SVG without accessibility attributes -->
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <rect width="80" height="80" x="10" y="10" stroke="black" stroke-width="3" fill="orange"/>
+    </svg>
+
+    <!-- SVG with no accessibility attributes -->
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,15 100,100 0,100" fill="green"/>
+    </svg>
+
+    <p>As you can see, SVGs without accessibility attributes are less user-friendly for people who use screen readers.
+        Including a `title`, `aria-label`, or other relevant attributes improves accessibility and ensures your web
+        content is accessible to a wider audience.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Accessible SVG Blog</p>
+</footer>
+
+</body>
+</html>

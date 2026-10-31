@@ -1,0 +1,6 @@
+I need a blog post sensible example which will also contain the following:
+- at least one of each <button>, role="button", <a> and role="link" which contain the word 'chat'
+- at least one <img> with alt attribute containing the word 'chat'
+
+I also need a new blogpost example which will not contain any of the previously mentioned
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Forms</title>
+</head>
+<body>
+
+<h1>Sample HTML Forms</h1>
+
+<!-- Form 1: No label elements and no autocomplete -->
+<form action="/submit1" method="post">
+    <h2>Form 1: No Labels</h2>
+    <input type="text" name="username" placeholder="Username"><br>
+    <input type="password" name="password" placeholder="Password"><br>
+    <button type="submit">Submit</button>
+</form>
+
+<hr>
+
+<!-- Form 2: Some labels with "for" attribute, some without -->
+<form action="/submit2" method="post">
+    <h2>Form 2: Mixed Labels with and without "for" attributes</h2>
+
+    <!-- Label with "for" and matching input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" autocomplete="email"><br>
+
+    <!-- Label without "for" attribute -->
+    <label>Full Name:</label>
+    <input type="text" name="fullname" autocomplete="name"><br>
+
+    <!-- Label with "for" attribute but no matching input ID -->
+    <label for="address">Address:</label>
+    <input type="text" name="address" autocomplete="street-address"><br>
+
+    <!-- Label with "for" attribute and minus in value -->
+    <label for="phone-number">Phone Number:</label>
+    <input type="tel" id="phone-number" name="phone" autocomplete="tel"><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<hr>
+
+<!-- Form 3: Labels with mismatched "for" attributes and unknown autocomplete values -->
+<form action="/submit3" method="post" novalidate>
+    <h2>Form 3: Mismatched Labels and Unknown Autocomplete</h2>
+
+    <!-- Label with correct "for" but minus in value -->
+    <label for="user-name">Username:</label>
+    <input type="text" id="user-name" name="username" autocomplete="unknown-autocomplete"><br>
+
+    <!-- Label with "for" but no corresponding ID -->
+    <label for="password-confirm">Confirm Password:</label>
+    <input type="password" name="confirm_password" autocomplete="new-password"><br>
+
+    <!-- Label with no "for" -->
+    <label>Password:</label>
+    <input type="password" name="password"><br>
+
+    <!-- Input with no autocomplete attribute -->
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" autocomplete="on"><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

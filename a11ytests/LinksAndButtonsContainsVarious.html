@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Links and Buttons in Web Accessibility</title>
+</head>
+<body>
+
+<header>
+    <h1>Web Accessibility and Interactive Elements</h1>
+    <p>This blog post explores how to properly use interactive elements like links and buttons in web development,
+        paying close attention to accessibility features such as `aria-label`, proper `href` attributes, and the correct
+        use of roles for better user experiences.</p>
+</header>
+
+<section>
+    <h2>Links Without HREF or with Empty HREF</h2>
+
+    <!-- <a> element without href attribute -->
+    <p>Here is a link without an `href` attribute: <a>Click me</a>.</p>
+
+    <!-- <a> element with an empty href attribute -->
+    <p>This link has an empty `href` attribute: <a href="">Empty link</a>.</p>
+
+    <!-- role="link" element without href -->
+    <p>An element acting as a link but missing the `href` attribute: <span role="link">Accessible Link</span>.</p>
+
+    <!-- role="link" element with an empty href attribute -->
+    <p>This `role="link"` element has an empty `href` attribute: <span role="link" href="">Empty Accessible Link</span>.
+    </p>
+</section>
+
+<section>
+    <h2>Links and Buttons with Images and SVGs</h2>
+
+    <!-- <a> element containing an img element -->
+    <p>This link contains an image:
+        <a href="https://example.com" aria-label="Something">
+            <img src="logo.jpg" alt="Website Logo">
+        </a>
+    </p>
+
+    <!-- <a> element containing an svg element -->
+    <p>This link contains an SVG:
+        <a href="https://example.com">
+            <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="25" cy="25" r="20" stroke="black" stroke-width="2" fill="blue"></circle>
+            </svg>
+        </a>
+    </p>
+
+    <!-- role="link" element containing an img element -->
+    <p>This `role="link"` element contains an image:
+        <span role="link">
+                <img src="icon.jpg" alt="Icon">
+            </span>
+    </p>
+
+    <!-- role="link" element containing an svg element -->
+    <p>This `role="link"` element contains an SVG:
+        <span role="link">
+                <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="40" stroke="red" stroke-width="2" fill="yellow"></rect>
+                </svg>
+            </span>
+    </p>
+
+    <p>This link has an aria-label attribute that matches the link text case insensitive: <a href="https://example.com"
+                                                                                             aria-label="visit our homepage">Visit
+        our
+        homepage</a>.</p>
+    <p>This role="link" element has an aria-label attribute that matches the text case insensitive: <span role="link"
+                                                                                                          aria-label="Learn more about us">Learn MORE about us</span>.
+    </p>
+    <p>This button has an aria-label attribute that matches the button text case insensitive:
+        <button aria-label="Submit">submit</button>
+        .
+    </p>
+    <p>This role="button" element has an aria-label attribute that matches the button text case insensitive: <span
+        role="button"
+        aria-label="click me">Click me</span>.
+    </p>
+</section>
+
+<section>
+    <h2>Links and Buttons with Accessibility Labels</h2>
+
+    <!-- <a> element with "toegankelijkheidsverklaring.nl/register/" inside href -->
+    <p>This link leads to the accessibility registry: <a href="https://toegankelijkheidsverklaring.nl/register/">Register</a>.
+    </p>
+
+    <!-- role="link" element with "toegankelijkheidsverklaring.nl/register/" inside href -->
+    <p>This `role="link"` element points to the accessibility registry: <span role="link"
+                                                                              href="https://toegankelijkheidsverklaring.nl/register/">Register Here</span>.
+    </p>
+
+    <!-- <a> element with aria-label -->
+    <p>This link has an `aria-label` attribute: <a href="https://example.com"
+                                                   aria-label="Visit Example Website">Example</a>.</p>
+
+    <!-- role="link" element with aria-label -->
+    <p>This `role="link"` element has an `aria-label` attribute: <span role="link"
+                                                                       aria-label="Go to Homepage">Homepage</span>.</p>
+
+    <!-- <a> element with aria-label not matching link text -->
+    <p>This link has an `aria-label` different from its text: <a href="https://example.com"
+                                                                 aria-label="Go to Example Website">Learn More</a>.</p>
+
+    <!-- role="link" element with aria-label not matching link text -->
+    <p>This `role="link"` element has an `aria-label` different from its text: <span role="link"
+                                                                                     aria-label="Navigate to Details Page">More Details</span>.
+    </p>
+
+    <!-- Button with aria-label -->
+    <p>This button has an `aria-label` attribute:
+        <button aria-label="Submit the form">Submit</button>
+        .
+    </p>
+
+    <!-- role="button" element with aria-label -->
+    <p>This `role="button"` element has an `aria-label` attribute: <span role="button"
+                                                                         aria-label="Click to start">Start</span>.</p>
+
+    <!-- Button with aria-label different from button text -->
+    <p>This button has an `aria-label` different from its text:
+        <button aria-label="Proceed to Payment">Next</button>
+        .
+    </p>
+
+    <!-- role="button" element with aria-label different from button text -->
+    <p>This `role="button"` element has an `aria-label` different from its text: <span role="button"
+                                                                                       aria-label="Submit the form">Send</span>.
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Accessibility Blog</p>
+</footer>
+
+</body>
+</html>

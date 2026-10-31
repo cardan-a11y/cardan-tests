@@ -1,0 +1,12 @@
+I need an example page where somewhere within the content there are:
+- grouped radio inputs which are not part of a fieldset
+- grouped radio inputs which are part of a fieldset
+- grouped checkbox inputs which are not part of a fieldset
+- grouped checkbox inputs which are part of a fieldset
+- fieldsets without legend
+- fieldsets with legend
+- legends without content
+- legends with content
+
+I need an example page without any input type radio or checklist and without any fieldsets and legends
+

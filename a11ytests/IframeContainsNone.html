@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content-Rich Sample Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        form {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Content-Rich Sample Page</h1>
+    <p>A demonstration of various HTML elements without any iframes.</p>
+</header>
+
+<section>
+    <h2>Introduction</h2>
+    <p>This page is designed to showcase a variety of HTML elements and content types, including text, lists, tables,
+        forms, media elements, and more.</p>
+</section>
+
+<section>
+    <h2>Text Elements</h2>
+    <p>This is a <strong>bold</strong> paragraph, and this is an <em>italic</em> paragraph. You can also include <u>underlined</u>
+        text, or
+        <mark>highlighted</mark>
+        text. Here's an example of a <abbr title="Hypertext Markup Language">HTML</abbr> abbreviation.
+    </p>
+    <blockquote>
+        "This is a blockquote, typically used to quote a large section of text from another source."
+    </blockquote>
+</section>
+
+<section>
+    <h2>Images</h2>
+    <p>Below is a sample image:</p>
+    <img src="https://via.placeholder.com/800x400" alt="Sample Image">
+    <p>Images can enhance the visual appeal of a page.</p>
+</section>
+
+<section>
+    <h2>Lists</h2>
+    <h3>Ordered List:</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    <h3>Unordered List:</h3>
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Tables</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Apple</td>
+            <td>A sweet red fruit</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>A yellow tropical fruit</td>
+            <td>$0.50</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>A citrus fruit</td>
+            <td>$0.75</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Forms</h2>
+    <form action="/submit" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</section>
+
+<section>
+    <h2>Multimedia</h2>
+    <h3>Video Element</h3>
+    <video controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h3>Audio Element</h3>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</section>
+
+<section>
+    <h2>Links</h2>
+    <p>Here is a link to an external website: <a href="https://www.example.com" target="_blank">Example Website</a>.</p>
+    <p>You can also create internal links, like this one: <a href="#footer">Go to footer</a>.</p>
+</section>
+
+<footer id="footer">
+    <p>&copy; 2024 Content-Rich Sample Page</p>
+</footer>
+
+</body>
+</html>

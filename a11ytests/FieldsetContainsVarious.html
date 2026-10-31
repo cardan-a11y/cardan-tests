@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Grouping Examples</title>
+</head>
+<body>
+
+<header>
+    <h1>Examples of Form Input Groupings and Fieldsets</h1>
+    <p>This page demonstrates various examples of form input groupings, including radio buttons, checkboxes, and
+        fieldsets with and without legends.</p>
+</header>
+
+<section>
+    <h2>1. Grouped Radio Inputs (No Fieldset)</h2>
+    <p>Below are radio buttons that are grouped together but not enclosed in a fieldset:</p>
+    <input type="radio" id="radio1" name="group1" value="option1">
+    <label for="radio1">Option 1</label>
+    <input type="radio" id="radio2" name="group1" value="option2">
+    <label for="radio2">Option 2</label>
+</section>
+
+<section>
+    <h2>2. Grouped Radio Inputs (With Fieldset)</h2>
+    <fieldset>
+        <legend>Choose an Option</legend>
+        <input type="radio" id="radio3" name="group2" value="option1">
+        <label for="radio3">Option 1</label>
+        <input type="radio" id="radio4" name="group2" value="option2">
+        <label for="radio4">Option 2</label>
+    </fieldset>
+</section>
+
+<section>
+    <h2>3. Grouped Checkbox Inputs (No Fieldset)</h2>
+    <p>Below are checkbox inputs that are grouped together but not enclosed in a fieldset:</p>
+    <input type="checkbox" id="checkbox1" name="group3" value="item1">
+    <label for="checkbox1">Item 1</label>
+    <input type="checkbox" id="checkbox2" name="group3" value="item2">
+    <label for="checkbox2">Item 2</label>
+</section>
+
+<section>
+    <h2>4. Grouped Checkbox Inputs (With Fieldset)</h2>
+    <fieldset>
+        <legend>Select Items</legend>
+        <input type="checkbox" id="checkbox3" name="group4" value="item1">
+        <label for="checkbox3">Item 1</label>
+        <input type="checkbox" id="checkbox4" name="group4" value="item2">
+        <label for="checkbox4">Item 2</label>
+    </fieldset>
+</section>
+
+<section>
+    <h2>5. Fieldset Without Legend</h2>
+    <fieldset>
+        <input type="text" id="input1" placeholder="Type here...">
+        <input type="password" id="input2" placeholder="Enter password">
+    </fieldset>
+</section>
+
+<section>
+    <h2>6. Fieldset With Legend</h2>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+    </fieldset>
+</section>
+
+<section>
+    <h2>7. Legend Without Content</h2>
+    <fieldset>
+        <legend></legend>
+        <input type="text" id="input3" placeholder="Input without legend text">
+    </fieldset>
+</section>
+
+<section>
+    <h2>7.1 Legend Without Content</h2>
+    <fieldset>
+        <legend>
+        </legend>
+        <input type="text" id="input3" placeholder="Input without legend text">
+    </fieldset>
+</section>
+
+<section>
+    <h2>8. Legend With Content</h2>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+    </fieldset>
+</section>
+
+<footer>
+    <p>&copy; 2024 Form Input Examples. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

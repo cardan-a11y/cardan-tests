@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex HTML Structure</title>
+</head>
+<body>
+
+<header>
+    <h1>Example Blog Post: HTML Structure Exploration</h1>
+</header>
+
+<section>
+    <p>In this article, we explore a variety of HTML list structures, including some that might not conform to typical
+        HTML standards. This example showcases unordered lists, ordered lists, and description lists with a mix of valid
+        and invalid structures.</p>
+
+    <h2>Unordered List (UL)</h2>
+    <ul>
+        <li>Item 1</li>
+        <div role="listitem">Item 2 with role="listitem"</div>
+        <li>Item 3</li>
+        <span>This span is not a list item</span> <!-- Invalid -->
+        <li>Item 4</li>
+        <div>Another non-list element</div> <!-- Invalid -->
+    </ul>
+
+    <h2>Ordered List (OL)</h2>
+    <ol>
+        <li>First ordered item</li>
+        <div role="listitem">Second ordered item with role="listitem"</div>
+        <li>Third ordered item</li>
+        <p>This paragraph is not a list item</p> <!-- Invalid -->
+        <li>Fourth ordered item</li>
+    </ol>
+
+    <h2>ARIA List with role="list"</h2>
+    <div role="list">
+        <div role="listitem">First ARIA list item</div>
+        <div role="listitem">Second ARIA list item</div>
+        <li>Third item using LI inside role="list" (Invalid)</li>
+        <div role="listitem">Fourth ARIA list item</div>
+        <p>This paragraph is not a list item</p> <!-- Invalid -->
+    </div>
+
+    <h2>LI and role="listitem" Outside Lists</h2>
+    <li>Unnested LI outside of a list</li> <!-- Invalid -->
+    <div role="listitem">Unnested element with role="listitem"</div> <!-- Invalid -->
+
+    <h2>Description List (DL)</h2>
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Definition 1</dd>
+        <dt>Term 2</dt>
+        <dd>Definition 2</dd>
+        <dt>Term 3</dt>
+        <dd>Definition 3</dd>
+        <dt>Term 4</dt>
+        <dd>Definition 4</dd>
+        <dt>Term 5</dt>
+        <dd>Definition 5</dd>
+    </dl>
+
+    <h2>Grouped Description List</h2>
+    <dl>
+        <div>
+            <dt>Grouped Term 1</dt>
+            <dd>Grouped Definition 1</dd>
+        </div>
+        <div>
+            <dt>Grouped Term 2</dt>
+            <dd>Grouped Definition 2</dd>
+        </div>
+        <div>
+            <dt>Grouped Term 3</dt>
+            <dd>Grouped Definition 3</dd>
+        </div>
+    </dl>
+
+    <h2>Description List with Extra HTML Elements</h2>
+    <dl>
+        <dt>HTML Term</dt>
+        <dd>Definition with an <a href="#">anchor link</a> (Invalid)</dd>
+        <div>Invalid div inside DL</div> <!-- Invalid -->
+        <p>Extra paragraph inside DL (Invalid)</p> <!-- Invalid -->
+    </dl>
+
+    <h2>Complex DL with Nested DIVs</h2>
+    <dl>
+        <div>
+            <dt>Term in first div</dt>
+            <dd>Definition in first div</dd>
+            <p>Extra paragraph inside div (Invalid)</p> <!-- Invalid -->
+        </div>
+        <div>
+            <dt>Term in second div</dt>
+            <dd>Definition in second div</dd>
+            <div>Extra div inside div (Invalid)</div> <!-- Invalid -->
+        </div>
+        <div>
+            <dt>Term in third div</dt>
+            <dd>Definition in third div</dd>
+        </div>
+    </dl>
+
+    <h2>Unnested DT and DD</h2>
+    <dt>Unnested DT outside a DL</dt> <!-- Invalid -->
+    <dd>Unnested DD outside a DL</dd> <!-- Invalid -->
+
+    <h2>OL with DIVs Containing LIs</h2>
+    <ol>
+        <div>
+            <li>First item in div</li>
+            <li>Second item in div</li>
+        </div>
+        <div>
+            <li>Third item in div</li>
+            <li>Fourth item in div</li>
+        </div>
+    </ol>
+
+    <h2>Nested DIVs in DL with DDs and DTs</h2>
+    <dl>
+        <div>
+            <div>
+                <dt>First nested term</dt>
+                <dd>First nested definition</dd>
+            </div>
+            <div>
+                <dt>Second nested term</dt>
+                <dd>Second nested definition</dd>
+            </div>
+        </div>
+        <div>
+            <div>
+                <dt>Third nested term</dt>
+                <dd>Third nested definition</dd>
+            </div>
+            <div>
+                <dt>Fourth nested term</dt>
+                <dd>Fourth nested definition</dd>
+            </div>
+        </div>
+    </dl>
+</section>
+
+<footer>
+    <p>&copy; 2024 HTML Structure Blog</p>
+</footer>
+
+</body>
+</html>

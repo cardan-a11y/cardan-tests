@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/core/base.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/core/grid.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/navigation/backlink.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/header/header.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/section/edit-section.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/section/inner-section.css"
+          media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/form/form.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/form/input.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/form/radio.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/button/button.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/components/collapse/collapse.css" media="screen">
+    <link rel="stylesheet" href="https://mijn.duo.nl/styles/duo/css/login.css" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <script type="text/javascript" async="" defer="" src="//stats.duo.rijkscloud.nl/piwik.js"></script>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        document.cookie = "IV_JCT=%2Fisam; path=/;secure;HttpOnly";
+        /*]]>*/
+    </script>
+</head>
+<body>
+
+<!--‐‐ Elke pagina begint met een wrapper ‐‐-->
+<div class="wrapper">
+    <header class="header" role="banner">
+        <div class="header-logo">
+            <a href="http://www.duo.nl/"
+               title="Logo Dienst Uitvoering Onderwijs, Ministerie van Onderwijs, Cultuur en Wetenschap.">
+                <span class="screenreader-only">Naar de homepage</span>
+            </a>
+        </div>
+    </header>
+    <main class="skiplink-target main" id="content" tabindex="-1">
+        <div class="container">
+            <section class="row">
+                <!--‐‐ Een standaard pagina met content heeft onderstaand grid voor optimale leesbaarheid. ‐‐-->
+                <div class="col-xs-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
+                    <div class="content">
+                        <a href="https://www.duo.nl" class="content__header-backlink backlink">Terug naar duo.nl</a>
+                        <header class="content__header">
+                            <h1 class="is-heading1 content__header-title">Inloggen op Mijn DUO</h1>
+                        </header>
+                    </div>
+                </div>
+            </section>
+            <div class="row">
+                <!--‐‐ Een standaard pagina met content heeft onderstaand grid voor optimale leesbaarhe\id. ‐‐-->
+                <div class="col-xs-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
+                    <div class="content content--background content--large-padding">
+                        <div class="inner-section inner-section--no-border background--geel-tint-1">
+                            <!--
+                				Insert the federation ids here just so we can show some tokens
+
+                				uuid5b7aab51-0179-15b2-8a1a-85a1f7289f54
+				                MijnDUO-2-DigiDCC
+
+				            -->
+                            <form id="wayfForm" name="wayfForm" action="/isam/sps/MijnDUO-2-DigiDCC/saml20/logininitial"
+                                  method="GET">
+                                <h2 class="is-heading2">Inloggen met DigiD</h2>
+                                <p>Om in te loggen hebt u de DigiD app of DigiD met sms-controle nodig. Voor wie wilt u
+                                    inloggen?</p>
+                                <p>
+                                </p>
+                                <div class="input__group-horizontal spacing-top-s">
+                                    <!--  START NON-TRANSLATABLE  -->
+
+                                    <div class="input__group input__group--radio">
+                                        <input type="radio" name="ITFIM_WAYF_IDP" id="ITFIM_WAYF_IDP_0"
+                                               value="urn:nl-eid-gdi:1.0:TD:00000004183317817000:entities:0001"
+                                               class="input__control input__control--radio" checked="">
+                                        <label class="input__label input__label--radio" for="ITFIM_WAYF_IDP_0">
+                                            Voor mijzelf
+                                        </label>
+                                    </div>
+
+                                    <div class="input__group input__group--radio">
+                                        <input type="radio" name="ITFIM_WAYF_IDP" id="ITFIM_WAYF_IDP_1"
+                                               value="urn:nl-eid-gdi:1.0:BVD:00000004003214345001:entities:0001"
+                                               class="input__control input__control--radio" checked="">
+                                        <label class="input__label input__label--radio" for="ITFIM_WAYF_IDP_1">
+                                            Als gemachtigde
+                                        </label>
+                                    </div>
+
+                                    <!--  END NON-TRANSLATABLE  -->
+                                </div>
+                                <div class="spacing-top-s">
+                                    <!-- the hidden inputs must be present -->
+                                    <!--  START NON-TRANSLATABLE  -->
+
+                                    <input type="hidden" name="Target" id="Target"
+                                           value="https://mijn.duo.nl:443/particulier/portaal/dashboard/">
+
+                                    <input type="hidden" name="RequestBinding" id="RequestBinding" value="HTTPPost">
+
+                                    <input type="hidden" name="AuthnContextClassRef" id="AuthnContextClassRef"
+                                           value="urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport">
+
+                                    <input type="hidden" name="AuthnContextComparison" id="AuthnContextComparison"
+                                           value="minimum">
+
+                                    <input type="hidden" name="NameIdFormat" id="NameIdFormat" value="Transient">
+
+                                    <input type="hidden" name="ForceAuthn" id="ForceAuthn" value="true">
+
+                                    <!--  END NON-TRANSLATABLE  -->
+                                    <button type="submit" class="btn btn--primary btn--digid cta-link">
+                                        Inloggen Mijn DUO
+                                        <span class="screenreader-only">&nbsp;met Digi D</span>
+                                    </button>
+                                </div>
+                                <p></p>
+                            </form>
+                        </div>
+                        <div class="spacer centered-text"><em><span>of</span></em></div>
+                        <div>
+                            <div class="centered-text">
+                                <a class="link link--has-icon icon__eidas"
+                                   href="https://eidas-mijn.duo.nl/particulier/portaal/dashboard">Log in met Europees
+                                    inlogmiddel</a>
+                                <p class="centered-text spacing-top-l">Om in te loggen hebt u een burgerservicenummer
+                                    nodig.</p>
+                            </div>
+                        </div>
+                        <div class="spacing-top-l">
+                            <div class="collapse" role="status">
+                                <div x-uno-collapse="" class="collapse__header" id="inloggenBuitenland" role="button"
+                                     tabindex="0" aria-expanded="false"
+                                     aria-controls="uno-7de94739-0d99-0eb9-ca74-48f76ce83977">
+                                    <i class="collapse__indicator"></i>
+                                    <h2 class="collapse__title">Inloggen vanuit het buitenland</h2>
+                                </div>
+                                <div class="collapse__details collapse__details--indented"
+                                     id="uno-7de94739-0d99-0eb9-ca74-48f76ce83977" aria-expanded="false"
+                                     aria-labelledby="inloggenBuitenland" role="region">
+                                    <h3 id="digid-app">DigiD app</h3>
+                                    <p>Met DigiD kunt u ook buiten Nederland inloggen op Mijn DUO. <a
+                                        href="https://www.digid.nl/inlogmethodes/digid-app" class="">Installeer en
+                                        activeer</a> de DigiD app voordat u naar het buitenland gaat.</p>
+                                    <p>Krijgt u een nieuw (buitenlands) telefoonnummer? Log dan in op <a
+                                        href="https://digid.nl/inloggen" class="">Mijn DigiD</a> en koppel uw nieuwe
+                                        nummer aan de app. Woont u al in het buitenland en hebt u geen werkende DigiD
+                                        app? Kijk dan op <a href="https://www.digid.nl/buitenland/" class="">digid.nl/buitenland</a>
+                                        welke mogelijkheden u hebt.</p>
+                                    <h3 id="digid-aanvragen-vanuit-het-buitenland-of-het-caribisch-gebied">DigiD
+                                        aanvragen vanuit het buitenland of het Caribisch gebied</h3>
+                                    <p>Woont u in het buitenland of in het Caribisch gebied? Ook dan kunt u een DigiD
+                                        aanvragen. U moet wel aan een aantal voorwaarden voldoen. Kijk voor meer
+                                        informatie op <a
+                                            href="https://duo.nl/particulier/digid-aanvragen-vanuit-het-buitenland.jsp"
+                                            class="">DigiD aanvragen vanuit het buitenland</a>.</p>
+                                    <h3 id="inloggen-met-europees-inlogmiddel">Inloggen met Europees inlogmiddel</h3>
+                                    <p>EU-burgers kunnen met een Europees inlogmiddel en hun burgerservicenummer (bsn)
+                                        inloggen op Mijn DUO. U hebt dan geen DigiD nodig. Op <a rel="external"
+                                                                                                 href="https://www.rijksoverheid.nl/onderwerpen/inloggen-europese-economische-ruimte-eer-eidas/vraag-en-antwoord/hoe-kan-ik-vanuit-een-ander-eu-land-inloggen-bij-nederlandse-overheidsorganisaties">rijksoverheid.nl
+                                            <span class="screenreader-only">Link opent externe pagina </span></a> leest
+                                        u voor welke landen dit mogelijk is. Hebt u geen bsn? U krijgt een bsn als u
+                                        zich inschrijft in de <a rel="external"
+                                                                 href="https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/waar-registratie-niet-ingezetenen-rni">Registratie
+                                            Niet-Ingezetenen <span
+                                                class="screenreader-only">Link opent externe pagina </span></a> (RNI).
+                                    </p>
+                                    <h3 id="formulier">Formulier</h3>
+                                    <p>Kunt u niet inloggen op Mijn DUO? <a
+                                        href="https://duo.nl/particulier/formulieren/index.jsp" class="">Gebruik dan een
+                                        formulier</a> om uw aanvraag of wijziging door te geven. De verwerkingstijd van
+                                        een formulier is langer dan een digitale aanvraag.</p>
+                                    <h3 id="onze-post-weer-op-papier">Onze post weer op papier</h3>
+                                    <p>Krijgt u onze berichten digitaal, maar kunt u niet meer inloggen op Mijn DUO? <a
+                                        title="Ga naar het mailformulier"
+                                        href="https://duo.nl/apps/contactformulier/index.html?onderwerp=CFPOP-Verzoek%20post%20op%20papier">Gebruik
+                                        het mailformulier</a> als u onze berichten weer per post wilt ontvangen. Vermeld
+                                        uw volledige naam en geboortedatum.</p>
+                                </div>
+                                <div x-uno-collapse="" class="collapse__header" id="problemenInloggen" role="button"
+                                     tabindex="0" aria-expanded="false"
+                                     aria-controls="uno-a306466a-47fc-5a84-3e45-af41c76456e8">
+                                    <i class="collapse__indicator"></i>
+                                    <h2 class="collapse__title">Problemen met inloggen</h2>
+                                </div>
+                                <div class="collapse__details collapse__details--indented"
+                                     id="uno-a306466a-47fc-5a84-3e45-af41c76456e8" aria-expanded="false"
+                                     aria-labelledby="problemenInloggen" role="region">
+                                    <h3 id="hoe-werkt-inloggen">Hoe werkt inloggen?</h3>
+                                    <p>U hebt <a href="https://www.digid.nl/" class="">DigiD</a> nodig om te kunnen
+                                        inloggen. U kunt ook een <a
+                                            href="https://duo.nl/particulier/digid-aanvragen-vanuit-het-buitenland.jsp"
+                                            class="">DigiD aanvragen vanuit het buitenland of het Caribisch gebied</a>.
+                                    </p>
+                                    <ul>
+                                        <li>De makkelijkste manier is inloggen met de DigiD app. U logt in met een
+                                            zelfgekozen pincode.
+                                            <br></li>
+                                        <li>Hebt u geen smartphone? Dan kunt u inloggen met sms-controle. U logt in met
+                                            uw DigiD-wachtwoord en een code die u krijgt per sms.
+                                        </li>
+                                    </ul>
+                                    <h3 id="wachtwoord-of-gebruikersnaam-vergeten">Wachtwoord of gebruikersnaam
+                                        vergeten</h3>
+                                    <p>Bent u uw DigiD-wachtwoord of gebruikersnaam vergeten? <a rel="external"
+                                                                                                 href="https://www.digid.nl/inlogmethodes/gebruikersnaam-en-wachtwoord/">DigiD
+                                        helpt u verder <span class="screenreader-only">Link opent externe pagina </span></a>.
+                                    </p>
+                                    <h3 id="directe-link">Directe link</h3>
+                                    <p>Probeer deze directe link om Mijn DUO te openen:</p>
+                                    <p><a href="https://mijn.duo.nl/particulier/portaal/dashboard">https://mijn.duo.nl/particulier/portaal/dashboard</a>
+                                    </p>
+                                    <h3 id="cookies-wissen-of-andere-browser">Cookies wissen of andere browser</h3>
+                                    <p>Probeer uw cookies te wissen of in te loggen via een andere browser.</p>
+                                    <h3 id="privemodus">Privémodus</h3>
+                                    <p>Gebruikt u Safari op een iPhone of iPad? Zet dan de privémodus uit.</p>
+                                    <p>Bij andere browsers werkt Mijn DUO vaak het beste als u de privémodus aanzet.</p>
+                                    <h3 id="update-uw-besturingssysteem">Update uw besturingssysteem</h3>
+                                    <p>Om te kunnen inloggen met uw DigiD moet u minimaal beschikken over een van de
+                                        volgende besturingssystemen:</p>
+                                    <p>Voor uw computer:</p>
+                                    <ul>
+                                        <li>Windows 7 / 8.1</li>
+                                        <li>Windows 10</li>
+                                        <li>OSX 10.9.4 of hoger</li>
+                                    </ul>
+                                    <p>Voor uw mobiele apparaat:</p>
+                                    <ul>
+                                        <li>iOS 7 of hoger</li>
+                                        <li>Android 6 of hoger</li>
+                                    </ul>
+                                    <h3 id="europees-inlogmiddel">Europees inlogmiddel</h3>
+                                    <p>Lukt inloggen met uw Europese inlogmiddel niet? Neem dan contact op met de
+                                        aanbieder van uw Europese inlogmiddel.</p>
+                                </div>
+                                <div x-uno-collapse="" class="collapse__header" id="veiligeBrowser" role="button"
+                                     tabindex="0" aria-expanded="false"
+                                     aria-controls="uno-15412ace-6732-0c67-a98e-7348f44edb3e">
+                                    <i class="collapse__indicator"></i>
+                                    <h2 class="collapse__title">Gebruik een veilige browser</h2>
+                                </div>
+                                <div class="collapse__details collapse__details--indented"
+                                     id="uno-15412ace-6732-0c67-a98e-7348f44edb3e" aria-expanded="false"
+                                     aria-labelledby="veiligeBrowser" role="region">
+                                    <p>DUO adviseert u om geen gebruik te maken van Internet Explorer. Gebruik liever
+                                        Chrome, Firefox of Edge. Deze browsers zijn veiliger en geven minder vaak
+                                        problemen bij het gebruik van Mijn DUO.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="https://mijn.duo.nl/styles/duo/js/s.min.js"></script>
+<script src="https://mijn.duo.nl/styles/duo/js/system.resolve-hook.js"></script>
+<script src="https://mijn.duo.nl/styles/duo/js/login.js"></script>
+<script src="https://mijn.duo.nl/styles/duo/js/matomo.js"></script>
+
+
+</body>
+</html>

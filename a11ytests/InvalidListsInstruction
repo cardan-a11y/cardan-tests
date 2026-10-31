@@ -1,0 +1,9 @@
+I need HTML blogpost in dutch with some sensible content. In the content of the page I need a couple of examples as if a person who wrote the code would use -, + or * in order to make a list.
+That is instead of using actual list elements someone would just copy-paste some preformatted content with those characters marking items.
+I need an example for each of these three characters for any scenario you might think of.
+
+This example looks good. However can you think of any other scenarios other than content inside P with BR?
+
+This looks excellent. Could you please now combine all of these examples along with the previous answer you gave me into a one large HTML document?
+
+Could you now add some OL, UL, DL DIV>role='list' along with some additional general content so the page has a bit more versatility?

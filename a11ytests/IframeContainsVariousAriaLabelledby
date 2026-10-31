@@ -1,0 +1,4 @@
+Please create a html for a page with various content which would also include three iframes. You can choose what the iframes would src to. All iframes need to have the area-labelledby attribute.
+First iframe aria-labelledby needs to contain the value of the ID of an actual label element in the page.
+Second iframe aria-labelledby needs to contain the value which is not related to any element's ID on the page.
+Third iframe aria-labelledby needs to contain two values. One is the ID of an actual label element on the pahe. The other one is the ID of that iframe.

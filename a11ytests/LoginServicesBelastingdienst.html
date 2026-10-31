@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="nl" class="hydrated">
+<head>
+    <meta charset="utf-8">
+    <style
+        data-styles="">bldc-html-navigation-bar, bldc-file-upload-modal, bldc-date-input, bldc-fieldset-address, bldc-checkbox-group, bldc-navigation-dropdown, bldc-status-step-indicator, bldc-radiobutton-group, bldc-select-box, bldc-textarea, bldc-footer, bldc-card, bldc-help, bldc-language-picker, bldc-navigation-menu, bldc-language-picker-option, bldc-layout, bldc-validation, bldc-buttonbar, bldc-footer-list, bldc-sign-form, bldc-table, bldc-task-step-indicator, bldc-breadcrumb-item, bldc-calculation-row, bldc-description-details, bldc-link, bldc-badge, bldc-breadcrumb, bldc-calculation, bldc-calculation-accordion, bldc-calculation-amount, bldc-chip, bldc-chip-group, bldc-component, bldc-description-list, bldc-description-term, bldc-form, bldc-header, bldc-logo, bldc-navigation, bldc-navigation-user-info, bldc-radiobutton, bldc-search, bldc-skip-link, bldc-tab, bldc-tabs, bldc-template, bldc-translate-init, bldc-user-service, bldc-version, bldc-heading, bldc-button, bldc-notification, bldc-translate, bldc-paragraph, bldc-icon, bldc-modal, bldc-focus-trap, bldc-file-upload, bldc-date-picker, bldc-date-picker-modal, bldc-card-header, bldc-dropdown-menu, bldc-navigation-item, bldc-checkbox, bldc-navigation-bar, bldc-html-navigation-bar-item, bldc-help-text-container, bldc-help-button, bldc-explanation-text, bldc-fieldset, bldc-input, bldc-file, bldc-list, bldc-dropdown-item, bldc-icon-notification, bldc-user-info, bldc-navigation-bar-item, bldc-navigation-bar-subs, bldc-tooltip, bldc-login, bldc-login-status, bldc-dropdown, bldc-backdrop, bldc-grid, bldc-grid-row, bldc-grid-column {
+        visibility: hidden
+    }
+
+    .hydrated {
+        visibility: inherit
+    }</style>
+    <title>Inloggen op Mijn Belastingdienst</title>
+    <base href="./">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#154273">
+    <meta name="msapplication-TileColor" content="#154273">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link rel="stylesheet" href="styles.7be02f633af2e313.css">
+    <script nonce="">
+        globalThis.__bd_nonce__ = "216764c9-9b2d-409b-98b3-456655ae7940";
+    </script>
+    <style>p[_ngcontent-ng-c3044356583] {
+        color: red;
+        text-align: center
+    }
+
+    h1[_ngcontent-ng-c3044356583] {
+        text-align: center
+    }</style>
+    <style>.bd_modal[_ngcontent-ng-c660927045] {
+        position: fixed;
+        z-index: 1;
+        inset: 0;
+        overflow: hidden;
+        background-color: #000;
+        background-color: #0006
+    }
+
+    .modal-content[_ngcontent-ng-c660927045] {
+        position: relative;
+        background-color: #fefefe;
+        margin: 12% auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 400px;
+        box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+        -webkit-animation-name: _ngcontent-ng-c660927045_animatetop;
+        -webkit-animation-duration: .4s;
+        animation-name: _ngcontent-ng-c660927045_animatetop;
+        animation-duration: .4s
+    }
+
+    .close[_ngcontent-ng-c660927045] {
+        color: #aaa;
+        float: right;
+        font-size: 20px;
+        font-weight: 700
+    }
+
+    .close[_ngcontent-ng-c660927045]:hover, .close[_ngcontent-ng-c660927045]:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer
+    }
+
+    h2[_ngcontent-ng-c660927045] {
+        padding: 5px 0 7px
+    }
+
+    .modal-header[_ngcontent-ng-c660927045] {
+        padding: 2px 16px;
+        background-color: #8fcae7;
+        color: #fff;
+        margin-bottom: 10px
+    }
+
+    .modal-body[_ngcontent-ng-c660927045] {
+        padding: 2px 16px 50px
+    }
+
+    .modal-body[_ngcontent-ng-c660927045] label[_ngcontent-ng-c660927045] {
+        width: 80px;
+        display: block;
+        float: left;
+        font-size: 11px;
+        padding: 4px 10px 4px 0
+    }
+
+    .modal-footer[_ngcontent-ng-c660927045] {
+        background-color: #8fcae7;
+        color: #fff;
+        padding: 0
+    }
+
+    .row[_ngcontent-ng-c660927045] {
+        width: 100%;
+        display: block;
+        float: left;
+        padding: 10px 0
+    }
+
+    .buttons[_ngcontent-ng-c660927045] {
+        float: none;
+        text-align: center
+    }
+
+    fieldset[_ngcontent-ng-c660927045] {
+        margin-top: 12px
+    }
+
+    .button[_ngcontent-ng-c660927045] {
+        padding: 2px 15px 4px;
+        border: 1px solid #000;
+        font-size: 11px;
+        font-weight: 700;
+        margin-left: 12px;
+        background: #deebe3;
+        display: inline-block;
+        float: none
+    }
+
+    .button[_ngcontent-ng-c660927045]:hover {
+        background: #767676;
+        color: #fff
+    }
+
+    @keyframes _ngcontent-ng-c660927045_animatetop {
+        0% {
+            top: -300px;
+            opacity: 0
+        }
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    .error[_ngcontent-ng-c660927045] {
+        color: red
+    }
+
+    .notitlebar[_ngcontent-ng-c660927045] {
+        padding-top: 40px
+    }</style>
+    <style>.alert[_ngcontent-ng-c2869719061] [_ngcontent-ng-c2869719061]:not(.rotate-device).icon {
+        top: -1px
+    }</style>
+    <style>.bld-block-container[_ngcontent-ng-c1990046960] {
+        margin-bottom: 10px
+    }</style>
+</head>
+
+<body class="js-focus-visible theme-lichtblauw">
+<app-root _nghost-ng-c3044356583="" ng-version="16.2.12">
+    <div _ngcontent-ng-c3044356583="" id="PageContainer">
+        <div _ngcontent-ng-c3044356583="" id="Content">
+            <router-outlet _ngcontent-ng-c3044356583=""></router-outlet>
+            <app-inloggen _nghost-ng-c4212141145="">
+                <app-logo-header _ngcontent-ng-c4212141145="">
+                    <button class="btn bld-btn bld-skip-link">Direct naar de inhoud</button>
+                    <bldc-logo backgroundcolor="white" class="hydrated"></bldc-logo>
+                </app-logo-header>
+                <app-navbar-title _ngcontent-ng-c4212141145="" _nghost-ng-c2592809872="">
+                    <nav _ngcontent-ng-c2592809872="" data-spy="affix" role="navigation"
+                         class="navbar navbar-expand-lg bld-navbar sticky-0">
+                        <div _ngcontent-ng-c2592809872="" class="container">
+                            <div _ngcontent-ng-c2592809872="" class="row w-100 no-gutters">
+                                <div _ngcontent-ng-c2592809872="" class="col-9 col-sm-9 col-md-8">
+                                    <ul _ngcontent-ng-c2592809872="" class="navbar-nav d-flex flex-wrap">
+                                        <li _ngcontent-ng-c2592809872=""
+                                            class="nav-item inactive d-flex align-items-center justify-content-start">
+                                            <div _ngcontent-ng-c2592809872="" class="d-none d-md-block"><h2
+                                                _ngcontent-ng-c2592809872="" class="navbar-brand text-center m-0">Mijn
+                                                Belastingdienst</h2></div><!---->
+                                            <div _ngcontent-ng-c2592809872="" class="d-block d-md-none"><h2
+                                                _ngcontent-ng-c2592809872=""
+                                                class="navbar-brand d-flex justify-content-end mr-2 ml-2">Mijn
+                                                Belastingdienst</h2><!----><!----></div><!----></li>
+                                    </ul><!----></div>
+                            </div>
+                        </div>
+                    </nav>
+                </app-navbar-title>
+                <div _ngcontent-ng-c4212141145="" class="container my-5">
+                    <div _ngcontent-ng-c4212141145="" class="row justify-content-center">
+                        <div _ngcontent-ng-c4212141145="" class="col-md-12 col-lg-9 col-xl-8"><h1
+                            _ngcontent-ng-c4212141145="" id="bld-anchor-start">Inloggen</h1>
+                            <div _ngcontent-ng-c4212141145="" class="container mt-4 px-0 bg-white">
+                                <nav _ngcontent-ng-c4212141145="">
+                                    <div _ngcontent-ng-c4212141145="" id="nav-tab" role="tablist"
+                                         aria-labelledby="bld-anchor-start" class="nav nav-tabs nav-fill"><a
+                                        _ngcontent-ng-c4212141145="" id="nav-niet-gemachtigd-tab" data-toggle="tab"
+                                        href="#nav-niet-gemachtigd" role="tab" aria-controls="nav-niet-gemachtigd"
+                                        aria-selected="true" tabindex="0"
+                                        class="nav-item nav-link active d-flex justify-content-center align-items-center"><i
+                                        _ngcontent-ng-c4212141145="" aria-hidden="true" class="icon">gebruiker</i><span
+                                        _ngcontent-ng-c4212141145="" class="pl-2">Voor mijzelf</span></a><a
+                                        _ngcontent-ng-c4212141145="" id="nav-gemachtigd-tab" data-toggle="tab"
+                                        href="#nav-gemachtigd" role="tab" aria-controls="nav-gemachtigd"
+                                        aria-selected="false" tabindex="-1"
+                                        class="nav-item nav-link d-flex justify-content-center align-items-center"><i
+                                        _ngcontent-ng-c4212141145="" aria-hidden="true" class="icon">gemachtigd</i><span
+                                        _ngcontent-ng-c4212141145="" class="pl-2">Voor iemand anders</span></a></div>
+                                </nav><!---->
+                                <div _ngcontent-ng-c4212141145="" id="nav-tabContent" class="tab-content">
+                                    <div _ngcontent-ng-c4212141145="" id="nav-niet-gemachtigd" role="tabpanel"
+                                         aria-labelledby="nav-niet-gemachtigd-tab" class="tab-pane show active">
+                                        <div _ngcontent-ng-c4212141145="" class="bld-block-container">
+                                            <div _ngcontent-ng-c4212141145=""
+                                                 class="row justify-content-center no-gutters">
+                                                <div _ngcontent-ng-c4212141145="" class="col-12">
+                                                    <div _ngcontent-ng-c4212141145="">
+                                                        <app-login-option _ngcontent-ng-c4212141145=""
+                                                                          apppreventdoubleclick="" tabindex="0"
+                                                                          role="link" _nghost-ng-c1990046960=""><a
+                                                            _ngcontent-ng-c1990046960="" id="a_digid">
+                                                            <div _ngcontent-ng-c1990046960=""
+                                                                 class="bld-block-container bld-nav-block bld-ots-login d-flex">
+                                                                <div _ngcontent-ng-c1990046960=""
+                                                                     class="row w-100 no-gutters">
+                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                         class="d-flex align-self-center">
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="col-2 col-md-2 col-lg-3 px-0 mx-1 d-flex">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="align-self-center"><img
+                                                                                _ngcontent-ng-c1990046960=""
+                                                                                aria-hidden="true" class="bld-login-img"
+                                                                                src="assets/img/inloggen/digid.svg"
+                                                                                alt="Inloggen met DigiD"></div>
+                                                                        </div>
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="col-8 col-md-8 col-lg-7 my-auto">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="d-flex justify-content-start align-items-center h-100">
+                                                                                <h4 _ngcontent-ng-c1990046960=""
+                                                                                    role="presentation"
+                                                                                    class="pointer mb-0">Inloggen met
+                                                                                    DigiD</h4></div>
+                                                                        </div>
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="col-2 my-auto">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="d-flex justify-content-end align-items-center h-100">
+                                                                                <i _ngcontent-ng-c1990046960=""
+                                                                                   aria-hidden="true"
+                                                                                   class="icon ease--right mid-grey">delta_rechts</i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a></app-login-option><!---->
+                                                        <app-login-option _ngcontent-ng-c4212141145=""
+                                                                          apppreventdoubleclick="" tabindex="0"
+                                                                          role="link" _nghost-ng-c1990046960=""><a
+                                                            _ngcontent-ng-c1990046960="" id="a_eidas">
+                                                            <div _ngcontent-ng-c1990046960=""
+                                                                 class="bld-block-container bld-nav-block bld-ots-login d-flex">
+                                                                <div _ngcontent-ng-c1990046960=""
+                                                                     class="row w-100 no-gutters">
+                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                         class="d-flex align-self-center">
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="col-2 col-md-2 col-lg-3 px-0 mx-1 d-flex">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="align-self-center"><img
+                                                                                _ngcontent-ng-c1990046960=""
+                                                                                aria-hidden="true" class="bld-login-img"
+                                                                                src="assets/img/inloggen/eIDAS_logo_lichtblauw_gouden_sterren.svg"
+                                                                                alt="European login"></div>
+                                                                        </div>
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="col-8 col-md-8 col-lg-7 my-auto">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="d-flex justify-content-start align-items-center h-100">
+                                                                                <h4 _ngcontent-ng-c1990046960=""
+                                                                                    role="presentation"
+                                                                                    class="pointer mb-0">European
+                                                                                    login</h4></div>
+                                                                        </div>
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="col-2 my-auto">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="d-flex justify-content-end align-items-center h-100">
+                                                                                <i _ngcontent-ng-c1990046960=""
+                                                                                   aria-hidden="true"
+                                                                                   class="icon ease--right mid-grey">delta_rechts</i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a></app-login-option><!----><!---->
+                                                        <div _ngcontent-ng-c4212141145=""
+                                                             class="d-flex flex-wrap align-items-center mt-4">
+                                                            <app-button _ngcontent-ng-c4212141145="" type="help"
+                                                                        tabindex="0" role="link"
+                                                                        _nghost-ng-c955337281=""><!----><!----><!---->
+                                                                <!----><!----><a _ngcontent-ng-c955337281=""
+                                                                                 class="d-flex align-items-center w-fit-content mb-3 mr-5 mb-md-0"><i
+                                                                    _ngcontent-ng-c955337281="" aria-hidden="true"
+                                                                    class="icon blue ease--right mx-2">tabblad</i><span
+                                                                    _ngcontent-ng-c955337281=""
+                                                                    class="text-nowrap font-bold blue">Hulp bij inloggen en machtigen</span></a>
+                                                                <!----><!----><!----><!----></app-button>
+                                                            <div _ngcontent-ng-c4212141145=""
+                                                                 class="d-flex justify-content-start justify-content-md-end">
+                                                                <app-button _ngcontent-ng-c4212141145="" type="inverted"
+                                                                            _nghost-ng-c955337281=""><!----><!---->
+                                                                    <!----><!----><!---->
+                                                                    <button _ngcontent-ng-c955337281="" type="button"
+                                                                            class="bld-btn bld-btn-inverted btn">Stoppen
+                                                                    </button><!----><!----><!----><!----><!----><!---->
+                                                                    <!----></app-button>
+                                                            </div>
+                                                        </div>
+                                                    </div><!----></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div _ngcontent-ng-c4212141145="" id="nav-gemachtigd" role="tabpanel"
+                                         aria-labelledby="nav-gemachtigd-tab" class="tab-pane">
+                                        <div _ngcontent-ng-c4212141145="" class="bld-block-container">
+                                            <div _ngcontent-ng-c4212141145=""
+                                                 class="row justify-content-center no-gutters">
+                                                <div _ngcontent-ng-c4212141145="" class="col-12">
+                                                    <fieldset _ngcontent-ng-c4212141145="">
+                                                        <legend _ngcontent-ng-c4212141145="" class="sr-only"></legend>
+                                                        <div _ngcontent-ng-c4212141145="" class="choice-blocked pt-0">
+                                                            <app-radio _ngcontent-ng-c4212141145="" type="default-large"
+                                                                       itemid="gemachtigd1">
+                                                                <div class="custom-control custom-radio ml-3"><input
+                                                                    type="radio" name="belanghebbende_bsn"
+                                                                    class="custom-control-input"
+                                                                    id="gemachtigd1"><br><label
+                                                                    class="custom-control-label font-bold large"
+                                                                    for="gemachtigd1">Ik heb een geldige
+                                                                    machtiging </label></div><!----><!----></app-radio>
+                                                            <div _ngcontent-ng-c4212141145="" class="content">
+                                                                <app-notification _ngcontent-ng-c4212141145=""
+                                                                                  type="warning"
+                                                                                  _nghost-ng-c2869719061=""><!---->
+                                                                    <div _ngcontent-ng-c2869719061="" class="mt-2">
+                                                                        <div _ngcontent-ng-c2869719061=""
+                                                                             aria-atomic="true" role="alert"
+                                                                             class="alert alert-warning bld-alert">
+                                                                            <div _ngcontent-ng-c2869719061=""
+                                                                                 class="row">
+                                                                                <div _ngcontent-ng-c2869719061=""
+                                                                                     class="col-12">
+                                                                                    <div _ngcontent-ng-c2869719061=""
+                                                                                         class="d-flex justify-content-start align-items-center">
+                                                                                        <app-svg-icons
+                                                                                            _ngcontent-ng-c2869719061=""
+                                                                                            type="let-op"
+                                                                                            spacing="mr-2"><!---->
+                                                                                            <!----><!---->
+                                                                                            <div
+                                                                                                class="letop mr-2 prio-ntfc"></div>
+                                                                                            <!----></app-svg-icons>
+                                                                                        <p _ngcontent-ng-c2869719061=""
+                                                                                           class="align-self-center highlight">
+                                                                                            Let op!</p></div>
+                                                                                    <p _ngcontent-ng-c2869719061=""
+                                                                                       class="bld-specificaties">U gaat
+                                                                                        met een machtiging inloggen voor
+                                                                                        iemand anders. Gebruik als
+                                                                                        gemachtigde uw eigen
+                                                                                        inloggegevens.</p></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div><!----><!----><!----></app-notification>
+                                                                <br _ngcontent-ng-c4212141145="">
+                                                                <div _ngcontent-ng-c4212141145="">
+                                                                    <app-login-option _ngcontent-ng-c4212141145=""
+                                                                                      apppreventdoubleclick=""
+                                                                                      tabindex="0" role="link"
+                                                                                      _nghost-ng-c1990046960=""><a
+                                                                        _ngcontent-ng-c1990046960=""
+                                                                        id="a_iemandanders_digid">
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="bld-block-container bld-nav-block bld-ots-login d-flex">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="row w-100 no-gutters">
+                                                                                <div _ngcontent-ng-c1990046960=""
+                                                                                     class="d-flex align-self-center">
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-2 col-md-2 col-lg-3 px-0 mx-1 d-flex">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="align-self-center">
+                                                                                            <img
+                                                                                                _ngcontent-ng-c1990046960=""
+                                                                                                aria-hidden="true"
+                                                                                                class="bld-login-img"
+                                                                                                src="assets/img/inloggen/digid.svg"
+                                                                                                alt="Inloggen met DigiD">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-8 col-md-8 col-lg-7 my-auto">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="d-flex justify-content-start align-items-center h-100">
+                                                                                            <h4 _ngcontent-ng-c1990046960=""
+                                                                                                role="presentation"
+                                                                                                class="pointer mb-0">
+                                                                                                Inloggen met DigiD</h4>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-2 my-auto">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="d-flex justify-content-end align-items-center h-100">
+                                                                                            <i _ngcontent-ng-c1990046960=""
+                                                                                               aria-hidden="true"
+                                                                                               class="icon ease--right mid-grey">delta_rechts</i>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a></app-login-option><!---->
+                                                                    <app-login-option _ngcontent-ng-c4212141145=""
+                                                                                      apppreventdoubleclick=""
+                                                                                      tabindex="0" role="link"
+                                                                                      _nghost-ng-c1990046960=""><a
+                                                                        _ngcontent-ng-c1990046960=""
+                                                                        id="a_iemandanders_eidas">
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="bld-block-container bld-nav-block bld-ots-login d-flex">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="row w-100 no-gutters">
+                                                                                <div _ngcontent-ng-c1990046960=""
+                                                                                     class="d-flex align-self-center">
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-2 col-md-2 col-lg-3 px-0 mx-1 d-flex">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="align-self-center">
+                                                                                            <img
+                                                                                                _ngcontent-ng-c1990046960=""
+                                                                                                aria-hidden="true"
+                                                                                                class="bld-login-img"
+                                                                                                src="assets/img/inloggen/eIDAS_logo_lichtblauw_gouden_sterren.svg"
+                                                                                                alt="European login">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-8 col-md-8 col-lg-7 my-auto">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="d-flex justify-content-start align-items-center h-100">
+                                                                                            <h4 _ngcontent-ng-c1990046960=""
+                                                                                                role="presentation"
+                                                                                                class="pointer mb-0">
+                                                                                                European login</h4>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-2 my-auto">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="d-flex justify-content-end align-items-center h-100">
+                                                                                            <i _ngcontent-ng-c1990046960=""
+                                                                                               aria-hidden="true"
+                                                                                               class="icon ease--right mid-grey">delta_rechts</i>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a></app-login-option><!---->
+                                                                    <app-login-option _ngcontent-ng-c4212141145=""
+                                                                                      apppreventdoubleclick=""
+                                                                                      tabindex="0" role="link"
+                                                                                      _nghost-ng-c1990046960=""><a
+                                                                        _ngcontent-ng-c1990046960=""
+                                                                        id="a_iemandanders_eherkenning">
+                                                                        <div _ngcontent-ng-c1990046960=""
+                                                                             class="bld-block-container bld-nav-block bld-ots-login d-flex">
+                                                                            <div _ngcontent-ng-c1990046960=""
+                                                                                 class="row w-100 no-gutters">
+                                                                                <div _ngcontent-ng-c1990046960=""
+                                                                                     class="d-flex align-self-center">
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-2 col-md-2 col-lg-3 px-0 mx-1 d-flex">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="align-self-center">
+                                                                                            <img
+                                                                                                _ngcontent-ng-c1990046960=""
+                                                                                                aria-hidden="true"
+                                                                                                class="bld-login-img"
+                                                                                                src="assets/img/inloggen/eherkenning.svg"
+                                                                                                alt="Inloggen met eHerkenning">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-8 col-md-8 col-lg-7 my-auto">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="d-flex justify-content-start align-items-center h-100">
+                                                                                            <h4 _ngcontent-ng-c1990046960=""
+                                                                                                role="presentation"
+                                                                                                class="pointer mb-0">
+                                                                                                Inloggen met
+                                                                                                eHerkenning</h4></div>
+                                                                                    </div>
+                                                                                    <div _ngcontent-ng-c1990046960=""
+                                                                                         class="col-2 my-auto">
+                                                                                        <div
+                                                                                            _ngcontent-ng-c1990046960=""
+                                                                                            class="d-flex justify-content-end align-items-center h-100">
+                                                                                            <i _ngcontent-ng-c1990046960=""
+                                                                                               aria-hidden="true"
+                                                                                               class="icon ease--right mid-grey">delta_rechts</i>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a></app-login-option><!----><!----></div><!----><a
+                                                                _ngcontent-ng-c4212141145="" id="internal-link"
+                                                                tabindex="0" role="link"
+                                                                class="link--no-line pointer mt-4">
+                                                                <div _ngcontent-ng-c4212141145=""
+                                                                     class="d-flex align-items-center"><i
+                                                                    _ngcontent-ng-c4212141145="" aria-hidden="true"
+                                                                    class="icon ease--right blue pr-3">delta_rechts</i><span
+                                                                    _ngcontent-ng-c4212141145="" class="m-0 blue">Ik heb een machtigingscode die nog niet is geactiveerd.</span>
+                                                                </div>
+                                                            </a></div>
+                                                        </div>
+                                                        <div _ngcontent-ng-c4212141145="" class="choice-blocked pt-0">
+                                                            <app-radio _ngcontent-ng-c4212141145="" type="default-large"
+                                                                       itemid="gemachtigd2">
+                                                                <div class="custom-control custom-radio ml-3"><input
+                                                                    type="radio" name="belanghebbende_bsn"
+                                                                    class="custom-control-input"
+                                                                    id="gemachtigd2"><br><label
+                                                                    class="custom-control-label font-bold large"
+                                                                    for="gemachtigd2">Ik heb nog géén geldige
+                                                                    machtiging </label></div><!----><!----></app-radio>
+                                                            <div _ngcontent-ng-c4212141145="" class="content"><p
+                                                                _ngcontent-ng-c4212141145="">Helaas, u kunt nog niet met
+                                                                uw eigen gegevens inloggen voor iemand anders. Wat kunt
+                                                                u wél doen?</p>
+                                                                <ul _ngcontent-ng-c4212141145="">
+                                                                    <li _ngcontent-ng-c4212141145="">Uw machtiging met
+                                                                        een code activeren op <a
+                                                                            _ngcontent-ng-c4212141145="" target="_blank"
+                                                                            href="https://machtigen.digid.nl"
+                                                                            rel="noopener noreferrer"
+                                                                            class="link__inline"><span
+                                                                            _ngcontent-ng-c4212141145="">DigiD Machtigen</span><i
+                                                                            _ngcontent-ng-c4212141145="" class="icon">tabblad</i></a>.
+                                                                    </li>
+                                                                    <li _ngcontent-ng-c4212141145="">Een machtiging
+                                                                        regelen op <a _ngcontent-ng-c4212141145=""
+                                                                                      target="_blank"
+                                                                                      href="https://machtigen.digid.nl"
+                                                                                      rel="noopener noreferrer"
+                                                                                      class="link__inline"><span
+                                                                            _ngcontent-ng-c4212141145="">DigiD Machtigen</span><i
+                                                                            _ngcontent-ng-c4212141145="" class="icon">tabblad</i></a>.
+                                                                    </li>
+                                                                    <li _ngcontent-ng-c4212141145="">De ander zelf laten
+                                                                        <a _ngcontent-ng-c4212141145="" tabindex="0"
+                                                                           role="link" class="blue font-underline">inloggen
+                                                                            met zijn eigen inloggegevens</a>.
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                    <div _ngcontent-ng-c4212141145=""
+                                                         class="d-flex flex-wrap align-items-center mt-4">
+                                                        <app-button _ngcontent-ng-c4212141145="" type="help"
+                                                                    tabindex="0" role="link" _nghost-ng-c955337281="">
+                                                            <!----><!----><!----><!----><!----><a
+                                                            _ngcontent-ng-c955337281=""
+                                                            class="d-flex align-items-center w-fit-content mb-3 mr-5 mb-md-0"><i
+                                                            _ngcontent-ng-c955337281="" aria-hidden="true"
+                                                            class="icon blue ease--right mx-2">tabblad</i><span
+                                                            _ngcontent-ng-c955337281=""
+                                                            class="text-nowrap font-bold blue">Hulp bij inloggen en machtigen</span></a>
+                                                            <!----><!----><!----><!----></app-button>
+                                                        <div _ngcontent-ng-c4212141145=""
+                                                             class="d-flex justify-content-start justify-content-md-end">
+                                                            <app-button _ngcontent-ng-c4212141145="" type="inverted"
+                                                                        _nghost-ng-c955337281=""><!----><!----><!---->
+                                                                <!----><!---->
+                                                                <button _ngcontent-ng-c955337281="" type="button"
+                                                                        class="bld-btn bld-btn-inverted btn">Stoppen
+                                                                </button><!----><!----><!----><!----><!----><!---->
+                                                                <!----></app-button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </app-inloggen><!----></div>
+        <app-modal _ngcontent-ng-c3044356583=""><!---->
+            <div id="loadingModal" tabindex="-1" role="dialog" aria-label="laden modal" aria-hidden="true"
+                 data-keyboard="false" data-backdrop="static" class="modal">
+                <div role="document" class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body text-center"><p class="mb-4">Een ogenblik geduld alstublieft.</p>
+                            <app-loader _nghost-ng-c3492221573="">
+                                <div _ngcontent-ng-c3492221573="" class="bld-loader mx-auto">
+                                    <div _ngcontent-ng-c3492221573="" class="loading mx-auto"></div>
+                                </div>
+                            </app-loader>
+                        </div>
+                    </div>
+                </div>
+            </div><!----><!----></app-modal>
+    </div>
+    <bld-timeout _ngcontent-ng-c3044356583="" _nghost-ng-c660927045="">
+        <bld-modal _ngcontent-ng-c660927045="" modalid="timeout">
+            <div tabindex="-1" role="dialog" aria-label="modal window" aria-hidden="true" aria-modal="true"
+                 aria-describedby="modal_content" class="modal fade" data-backdrop="static" data-keyboard="false"
+                 id="timeout">
+                <div role="document" class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body"><!----><span id="modal_content"><p _ngcontent-ng-c660927045=""
+                                                                                   class="text-center my-4"></p><!----><div
+                            class="d-flex justify-content-center"><bld-button primary="true"><button
+                            data-dismiss="modal" class="btn bld-btn">  OK</button></bld-button></div><!----></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </bld-modal>
+    </bld-timeout>
+</app-root>
+<script src="runtime.2d66c5097c873e1a.js" type="module"></script>
+<script src="polyfills.c8247aed104d9996.js" type="module"></script>
+<script src="scripts.501a30370f79d273.js" defer=""></script>
+<script src="main.01ab2d652942838a.js" type="module"></script>
+
+
+</body>
+</html>
