@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other ARIA Attributes in Accessibility</title>
+</head>
+<body>
+
+<header>
+    <h1>Exploring ARIA Attributes Beyond the Common Ones</h1>
+    <p>ARIA (Accessible Rich Internet Applications) attributes improve the accessibility of web content. This page
+        demonstrates various ARIA attributes that can help make web elements more accessible, excluding some commonly
+        used ones.</p>
+</header>
+
+<section>
+    <h2>1. Using aria-hidden</h2>
+    <p aria-hidden="true">This paragraph is visually displayed but hidden from assistive technologies like screen
+        readers.</p>
+    <p>This paragraph is visible and accessible to all users, including those using screen readers.</p>
+</section>
+
+<section>
+    <h2>2. Applying aria-busy</h2>
+    <div aria-busy="true">Loading data, please wait...</div>
+    <p>While the data is loading, the above element has `aria-busy` set to true, indicating that it's in a busy
+        state.</p>
+</section>
+
+<section>
+    <h2>3. Using aria-disabled</h2>
+    <button aria-disabled="true">This button is disabled and cannot be clicked.</button>
+    <p>The above button has the `aria-disabled` attribute, which makes it appear unavailable to screen readers without
+        disabling it visually.</p>
+</section>
+
+<section>
+    <h2>4. Example of aria-orientation</h2>
+    <div role="tablist" aria-orientation="vertical">
+        <button role="tab">Tab 1</button>
+        <button role="tab">Tab 2</button>
+        <button role="tab">Tab 3</button>
+    </div>
+    <p>This tab list uses `aria-orientation` to indicate a vertical orientation.</p>
+</section>
+
+<section>
+    <h2>5. Implementing aria-level</h2>
+    <div role="treeitem" aria-level="1">Item Level 1</div>
+    <div role="treeitem" aria-level="2">Item Level 2</div>
+    <div role="treeitem" aria-level="3">Item Level 3</div>
+    <p>The above items use the `aria-level` attribute to indicate their hierarchical level.</p>
+</section>
+
+<section>
+    <h2>6. Using aria-autocomplete</h2>
+    <p>Try typing to see autocomplete suggestions:</p>
+    <input type="text" aria-autocomplete="list" placeholder="Start typing...">
+    <p>The input field uses `aria-autocomplete` to indicate that a list of suggestions will appear as the user
+        types.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Accessibility Exploration. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

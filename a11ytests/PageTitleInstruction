@@ -1,0 +1,5 @@
+I need four short sensible HTML pages each covering one of the following cases:
+- page is missing the title element
+- the title element is empty
+- the title element content is shorter than 6 characters
+- title element is ok considering previous three cases

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Multiple Class Selectors</title>
+    <style>
+        /* Example CSS styles to illustrate the various class combinations */
+        .box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        .shadow {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .rounded {
+            border-radius: 8px;
+        }
+
+        .large-text {
+            font-size: 1.5em;
+        }
+
+        .small-text {
+            font-size: 0.75em;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<header class="box highlight shadow rounded large-text">
+    <h1 class="text-center blue">Welcome to the Multi-Class Example</h1>
+</header>
+
+<section>
+    <div class="box rounded shadow small-text">
+        <p class="bold italic">This paragraph has bold and italic styles applied.</p>
+    </div>
+
+    <div class="box large-text red text-right">
+        <p>This paragraph is large, red, and aligned to the right.</p>
+    </div>
+
+    <div class="box rounded blue bold">
+        <p>This is a blue, bold paragraph inside a rounded box.</p>
+    </div>
+
+    <div class="box shadow text-center">
+        <p>This is a centered paragraph inside a shadowed box.</p>
+    </div>
+
+    <div class="box underline red italic">
+        <p>This paragraph is underlined, red, and italicized.</p>
+    </div>
+
+    <div class="box highlight blue large-text bold">
+        <p class="underline">This paragraph is highlighted, blue, bold, and underlined.</p>
+    </div>
+
+    <div class="box shadow small-text rounded italic red">
+        <p>This is a small red italicized paragraph with shadow and rounded corners.</p>
+    </div>
+</section>
+
+<footer class="box shadow text-right small-text italic">
+    <p class="blue">This is a footer with small blue italicized text, aligned to the right.</p>
+</footer>
+
+</body>
+</html>

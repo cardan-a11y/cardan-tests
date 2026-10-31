@@ -1,0 +1,12 @@
+I need an example web page with some sensible content where:
+- some elements will have aria-current attribute
+- some elements will have aria-expanded attribute
+- some elements will have aria-selected attribute
+- some elements will have aria-controls attribute
+- some elements will have aria-describedby attribute
+- some elements will have aria-pressed attribute
+- some elements will have aria-label attribute
+- some elements will have aria-labelledby attribute
+- I need variations where some elements have aria-live="polite" or aria-live="assertive" in combination with role="status" or role="alert"
+
+Now I need an example page without any of forementioned arias but including other arias

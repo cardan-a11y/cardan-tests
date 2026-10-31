@@ -1,0 +1,9 @@
+I need a sensible blogpost page written in dutch which will contain a couple of edge cases where an element contains only a STRONG or EM element.
+For example, but not exclusive: <p><em>some text</em></p>
+
+I need variable scenarios with and without whitespaces and/or new lines around STRONG or EM. And also cases when there is absolutely no content around STRONG or EM.
+
+Most common scenario would include EM being used in heading elements and STRONG being used in P elements. But these are not the only combinations that might occur.
+
+
+Now I need a negative of this scenario. Meaning no element should contain only STRONG or EM inside its content. There should at least be some character around.

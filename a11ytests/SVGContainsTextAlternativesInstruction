@@ -1,0 +1,6 @@
+I need a sensible blogpost page which will additionally contain:
+- few svg elements with variations having title element or aria-label or aria-hidden or role="presentation" or aria-labelledby attribute
+- few svg element without title element or aria-label or aria-hidden or role="presentation or aria-labelledby attributes
+
+I need a blogpost page without any svg elements
+

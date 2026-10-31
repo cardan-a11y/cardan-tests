@@ -1,0 +1,9 @@
+I need an example web page with some sensible content where There will be multiple elements with various role attributes.
+The role attribute value I need to see in multiple occurrences are:
+dialog, menu, group, tab, tablist, tabpanel, combobox
+
+Aside from those I need various other role values to appear on the page so that I can test if my script properly matches the previously mentioned ones.
+
+I need an example web page with some sensible content where There will be multiple elements with various role attributes.
+The role attribute values should not be any of:
+dialog, menu, group, tab, tablist, tabpanel, combobox

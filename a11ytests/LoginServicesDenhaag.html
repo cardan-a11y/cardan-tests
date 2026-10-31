@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="googlebot" content="noindex, noarchive, nofollow">
+    <title>Gemeente Den Haag - Verkeersplein</title>
+    <script type="text/javascript" src="/vp/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="/vp/js/functions.js"></script>
+
+    <link rel="stylesheet" href="/vp/css/site.css" type="text/css">
+    <link rel="mask-icon" href="/vp/images/safari-pinned-tab.svg" color="#227B3C">
+    <link rel="shortcut icon" href="/vp/images/favicon.ico" type="image/ico">
+</head>
+<body>
+<div class="pagewrap header">
+    <div class="content">
+        <a href="https://www.denhaag.nl/"><img src="/vp/images/denhaag.svg" class="logo" alt="Den Haag"></a>
+    </div>
+</div>
+<div class="pagewrap body">
+    <div class="content">
+        <h1>Inloggen bij MijnDenHaag</h1>
+        <p class="text">In de persoonlijke online omgeving MijnDenHaag kunt u makkelijk, snel en veilig zaken regelen
+            bij de gemeente. Bewoners kunnen bijvoorbeeld een verhuizing doorgeven of extra parkeertegoed kopen via
+            DigiD. Bedrijven kunnen eenvoudig online zaken regelen via eHerkenning.</p>
+        <div class="boxes">
+            <div class="box">
+                <h2 class="digid">Inloggen met DigiD</h2>
+                <p>Log in met uw DigiD om persoonlijke zaken te <a
+                    href="https://www.denhaag.nl/nl/bestuur-en-organisatie/contact-met-de-gemeente/uw-persoonlijke-zaken-regelen-via-mijndenhaag.htm"
+                    class="link">regelen via MijnDenHaag</a>.</p>
+                <form action="https://secure.denhaag.nl/aselectserver/server/saml20_ists_digid" method="get"
+                      id="digidinlog" name="digidinlog">
+                    <input name="rid" type="hidden" value="R9B271871A57ABCD57B075A4C0A00EBD7FBB82169">
+                    <input name="federation_url" type="hidden" value="https://was.digid.nl/saml/idp/metadata">
+                    <button class="btn btn-primary" id="submitbutton" type="submit">Inloggen</button>
+                </form>
+            </div>
+            <div class="box">
+                <h2 class="eherkenning">Inloggen met eHerkenning</h2>
+                <p>Log in met eHerkenning om <a href="https://www.denhaag.nl/nl/in-de-stad/ondernemen/eherkenning.htm"
+                                                class="link">digitaal zaken te doen met de gemeente</a>.</p>
+                <form action="https://secure.denhaag.nl/aselectserver/server/saml20_ists_eh19" method="get"
+                      id="eherkenninginlog" name="eherkenninginlog">
+                    <input name="rid" type="hidden" value="R9B271871A57ABCD57B075A4C0A00EBD7FBB82169">
+                    <input name="federation_url" type="hidden"
+                           value="urn:etoegang:HM:00000003273226310000:entities:0019">
+                    <button class="button-eherkenning" id="submitbutton" type="submit">eHerkenning</button>
+                </form>
+            </div>
+            <div class="box3">
+                <h2 class="eidas">Login with your European digital identity</h2>
+                <p>Not all digital identity methods are ready yet for EU cross-border usage. For more info on eIDAS, go
+                    to <a href="https://www.denhaag.nl/nl/formulier/eidas-not-connected.htm" class="link">eIDAS not
+                        ready</a>.</p>
+                <form action="https://secure.denhaag.nl/aselectserver/server/saml20_ists_eh111" method="get"
+                      id="eidasinlog" name="eidasinlog">
+                    <input name="rid" type="hidden" value="R9B271871A57ABCD57B075A4C0A00EBD7FBB82169">
+                    <input name="federation_url" type="hidden"
+                           value="urn:etoegang:HM:00000003273226310000:entities:0011">
+                    <img src="/vp/images/eidas.svg" alt="EurpeanFlag" class="euFlag">
+                    <button class="btn btn-primary" id="submitbutton" type="submit">European Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pagewrap footer">
+    <div class="content"></div>
+</div>
+
+
+</body>
+</html>

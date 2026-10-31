@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Multiple Class Selectors</title>
+    <style>
+        /* Some sample styling for demonstration */
+        .box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .example1 {
+            background-color: lightblue;
+        }
+
+        .example2 {
+            background-color: lightgreen;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: red;
+        }
+
+        .border {
+            border: 2px solid black;
+        }
+
+        .rounded {
+            border-radius: 10px;
+        }
+
+        .shadow {
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .large-text {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2 class="example1 highlight large-text">Welcome to the Example Page</h2>
+    <p class="box shadow example1 example2">This is an example paragraph with multiple class selectors including
+        <strong>example2</strong>.</p>
+</header>
+
+<section>
+    <div class="box example1 rounded">
+        <h3 class="large-text">Section Title</h3>
+        <p class="example2 highlight">This paragraph has both <strong>example2</strong> and <strong>highlight</strong>
+            classes applied.</p>
+    </div>
+
+    <div class="box border shadow">
+        <p class="example1">This div uses <strong>example1</strong> with additional classes for styling.</p>
+        <p class="rounded large-text">This is a rounded box with larger text size.</p>
+    </div>
+
+    <div class="box example2 highlight rounded border">
+        <p>Combining <strong>example2</strong>, <strong>highlight</strong>, and other class selectors for complex
+            styling.</p>
+    </div>
+</section>
+
+<footer>
+    <p class="box shadow rounded example1 large-text">Footer content with multiple class selectors including <strong>example1</strong>.
+    </p>
+    <p class="border rounded example2">This footer paragraph uses <strong>example2</strong> and other styling.</p>
+</footer>
+
+</body>
+</html>

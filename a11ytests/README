@@ -1,0 +1,8 @@
+Files in this directory are sample files for unit testing of page tests.
+Sample files can have multiple dependencies from unit tests, so changing a sample file requires an updates in any tests
+that might be using them.
+
+Aside from that, there are files with AI instructions used for generating most of these files.
+AI instructions serve as a guideline. Results from those instructions were additionally adapted to fit certain samples,
+so it is not possible to reconstruct samples using the AI instructions solely. Results need to be checked and adapted
+additionally after AI generates them.

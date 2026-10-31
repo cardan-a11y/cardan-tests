@@ -1,0 +1,16 @@
+Generate an HTML page which will contain a few forms.
+
+Requirements
+- one of the forms must not contain any label elements
+- some labels should have a for attribute and some should not
+- some of for attribute of the labels which have them should have a corresponding element with an ID that matches the for attribute value and some should not
+- some of the for attributes of labels should have a minus "-" in their value and some should not
+- some input elements should have the autocomplete attribute and some should not
+- some of the autocomplete attributes should contain an unknown value
+- one of the forms should not contain the novalidate attribute
+
+Make the forms sensible for a human.
+
+
+can you generate an HTML page for me which will have a lot of various HTML elements excluding the form element or any of form related child elements?
+

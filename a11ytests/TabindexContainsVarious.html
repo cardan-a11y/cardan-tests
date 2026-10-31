@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post on Accessibility with a Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Understanding Accessibility in Web Forms</h1>
+    <p>Web accessibility ensures that websites are usable by everyone, including people with disabilities. One important
+        aspect is managing keyboard navigation, which can be controlled using the `tabindex` attribute. This blog post
+        explores how to use `tabindex` effectively in forms and web content.</p>
+</header>
+
+<section>
+    <h2>What is the `tabindex` Attribute?</h2>
+    <p>The `tabindex` attribute controls the order in which elements are focused when navigating a page using the
+        keyboard's Tab key. Here’s how the values work:</p>
+    <ul>
+        <li><strong>Negative values:</strong> The element is focusable, but is not included in the natural tab order.
+        </li>
+        <li><strong>Zero (0):</strong> The element is part of the natural tab order and will be focused according to its
+            position in the DOM.
+        </li>
+        <li><strong>Positive values:</strong> The element will receive focus before elements with `tabindex="0"`,
+            following the specified numerical order.
+        </li>
+    </ul>
+
+    <h2>Form Example with Tabindex</h2>
+    <p>The following form demonstrates various uses of the `tabindex` attribute. Some fields are included in the tab
+        order naturally, while others have specific `tabindex` values to control the navigation flow.</p>
+
+    <!-- Form with tabindex variations -->
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" tabindex="1" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" tabindex="0" placeholder="Enter your email">
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" tabindex="-1" placeholder="Your comments..."></textarea>
+
+        <button type="submit" tabindex="2">Submit</button>
+        <button type="reset">Reset</button> <!-- No tabindex specified -->
+    </form>
+</section>
+
+<section>
+    <h2>Other Elements with Tabindex</h2>
+    <p>In addition to form fields, other elements on the page can have `tabindex` to control focusability. This can be
+        useful for making elements like paragraphs, divs, and images focusable for screen readers or keyboard users.</p>
+
+    <p tabindex="0">This paragraph is focusable and part of the natural tab order.</p>
+    <p tabindex="-1">This paragraph is focusable but not included in the normal tab order.</p>
+
+    <div tabindex="3">This div element has a positive tabindex, making it the third item in the custom tab order after
+        the form elements.
+    </div>
+
+    <img src="images/example.jpg" alt="Example image" tabindex="0">
+    <p>Images can also be included in the tab order to provide additional context or information for screen readers.</p>
+
+    <p>Below is a list with various elements that have tabindex set:</p>
+    <ul>
+        <li tabindex="4">Item with tabindex 4</li>
+        <li tabindex="-1">Item not in the tab order</li>
+        <li tabindex="0">Item in the natural tab order</li>
+    </ul>
+</section>
+
+<footer>
+    <p tabindex="0">&copy; 2024 Accessibility Blog. All rights reserved.</p>
+    <p tabindex="-1">This footer paragraph is not included in the normal tab order but can still receive focus
+        programmatically.</p>
+</footer>
+
+</body>
+</html>

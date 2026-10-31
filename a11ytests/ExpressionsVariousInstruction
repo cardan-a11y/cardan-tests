@@ -1,0 +1,5 @@
+I need an html page containing following expressions:
+'lees meer', 'lees verder', 'read more', 'click here', 'klik hier'
+
+I need an appropriate example for each of these expressions within the page text context. Also I need each of these expressions to appear in following attributes of some elements:
+title, placeholder, alt, aria-label, value

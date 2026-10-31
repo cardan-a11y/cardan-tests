@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended Example Page with Iframes and aria-labelledby</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+            border: 2px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Extended Example Page with Iframes and aria-labelledby</h1>
+    <p>This page contains various content including iframes with aria-labelledby attributes, with some valid and some
+        invalid references.</p>
+</header>
+
+<section>
+    <h2>Form Section</h2>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+    </form>
+</section>
+
+<section>
+    <h2>Iframe Section</h2>
+
+    <!-- First Iframe: aria-labelledby points to a valid label element on the page -->
+    <label id="videoLabel1">First Video Label: Video Tutorial</label>
+    <iframe src="https://www.example.com/video1" aria-labelledby="videoLabel1" title="Video 1"></iframe>
+
+    <!-- Third Iframe: aria-labelledby points to both an actual label and its own ID -->
+    <label id="videoLabel3">Third Video Label: Training Video</label>
+    <iframe id="iframe3" src="https://www.example.com/video3" aria-labelledby="videoLabel3 iframe3"
+            title="Video 3"></iframe>
+</section>
+
+<section>
+    <h2>Information Section</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula libero nec erat gravida, eget vulputate
+        eros tristique. Vestibulum vel consequat tortor. Donec sed arcu ut nisl ultricies blandit. Ut at justo vitae
+        lacus faucibus lacinia.</p>
+
+    <p>Quisque at arcu vestibulum, luctus est vel, tempus erat. Sed id sem felis. Pellentesque viverra odio eget arcu
+        feugiat, vel luctus magna faucibus. In tempor semper odio, in dapibus quam ultricies et. Proin fermentum purus a
+        lectus blandit.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Extended Example Page with Iframes and aria-labelledby</p>
+</footer>
+
+</body>
+</html>

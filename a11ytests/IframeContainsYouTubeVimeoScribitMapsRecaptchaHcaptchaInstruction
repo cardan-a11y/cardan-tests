@@ -1,0 +1,15 @@
+Could you now make me a HTML example with a bit more content which will additionally contain the following:
+- an iframe with a source from youtube.com
+- an iframe with a source from youtu.be
+- iframe with a source from vimeo
+
+the iframes containing videos from youtube.com and youtu.be should have combinations with and without disablekb attribute as well as dissablekb=1
+the iframe containing video from vimeo should have combinations with and without keyboard attribute as well as keyboard=0
+
+Also include 2-3 of each of the following:
+- iframe with a scribit video
+- iframe with google map
+- iframe with google recaptcha
+- iframe with hCaptcha
+
+And make all these items shuffled and spread accros the page so they are not in an exact order

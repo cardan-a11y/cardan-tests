@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Content Iframe Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        iframe {
+            border: none;
+            width: 100%;
+            max-width: 600px;
+            height: 315px;
+            margin: 15px 0;
+        }
+
+        iframe.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Iframe-Heavy Content Example</h1>
+    <p>Shuffled iframes for various embedded content including YouTube, Vimeo, Scribit, and more.</p>
+</header>
+
+<section>
+    <h2>Section 1: Scribit Video & YouTube</h2>
+
+    <!-- Scribit iframe 1 -->
+    <iframe src="https://player.scribit.com/video/VIDEO_ID_1" allow="autoplay; encrypted-media" title="Title1"></iframe>
+
+    <!-- YouTube iframe 1 (disablekb attribute) -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1?disablekb=1" allow="autoplay; encrypted-media"
+            aria-label="Label1"></iframe>
+
+    <!-- Scribit iframe 2 -->
+    <iframe class="hidden" src="https://player.scribit.com/video/VIDEO_ID_2" allow="autoplay; encrypted-media"></iframe>
+</section>
+
+<section>
+    <h2>Section 2: Maps, hCaptcha & Vimeo</h2>
+
+    <!-- Google Maps iframe 1 -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093744!2d144.9556513156546!3d-37.817209979751954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1634654008504!5m2!1sen!2sus"
+        title="Title2"></iframe>
+
+    <!-- hCaptcha iframe 1 -->
+    <iframe src="https://hcaptcha.com/1/api.js?hl=en" frameborder="0" aria-labelledby="label1"></iframe>
+
+    <!-- Vimeo iframe (keyboard attribute) -->
+    <iframe src="https://player.vimeo.com/video/VIDEO_ID_1?keyboard=0"></iframe>
+</section>
+
+<section>
+    <h2>Section 3: Youtu.be & Google reCAPTCHA</h2>
+
+    <!-- Youtu.be iframe 2 (disablekb=1) -->
+    <iframe src="https://www.youtu.be/embed/VIDEO_ID_2?disablekb=1" allow="autoplay; encrypted-media"
+            aria-labelledby="label2"></iframe>
+
+    <!-- Google reCAPTCHA iframe 1 -->
+    <iframe
+        src="https://www.google.com/recaptcha/api2/anchor?ar=1&k=YOUR_SITE_KEY&co=aHR0cHM6Ly93d3cueW91cnNpdGUuY29tOjQ0Mw..&hl=en&type=image&v=rnd12345"
+        aria-label="Label3"></iframe>
+
+    <!-- Vimeo iframe (keyboard attribute enabled) -->
+    <iframe src="https://player.vimeo.com/video/VIDEO_ID_2" aria-label="Label2"></iframe>
+</section>
+
+<section>
+    <h2>Section 4: Youtu.be, Scribit, and hCaptcha</h2>
+
+    <!-- Youtu.be iframe 1 (no disablekb attribute) -->
+    <iframe style="display: none;" src="https://youtu.be/VIDEO_ID_3"></iframe>
+
+    <!-- Scribit iframe 3 -->
+    <iframe src="https://player.scribit.com/video/VIDEO_ID_3" allow="autoplay; encrypted-media" title="Title2"></iframe>
+
+    <!-- hCaptcha iframe 2 -->
+    <iframe src="https://hcaptcha.com/1/api.js?hl=en" frameborder="0"></iframe>
+</section>
+
+<section>
+    <h2>Section 5: Maps & YouTube</h2>
+
+    <!-- Google Maps iframe 2 -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093744!2d144.9556513156546!3d-37.817209979751954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1634654008504!5m2!1sen!2sus"
+        title="Title3"></iframe>
+
+    <!-- YouTube iframe 3 (no disablekb attribute) -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allow="autoplay; encrypted-media"></iframe>
+
+    <!-- Google reCAPTCHA iframe 2 -->
+    <iframe
+        src="https://www.google.com/recaptcha/api2/anchor?ar=1&k=YOUR_SITE_KEY&co=aHR0cHM6Ly93d3cueW91cnNpdGUuY29tOjQ0Mw..&hl=en&type=image&v=rnd12345"
+        title="Title4"></iframe>
+</section>
+
+<section>
+    <h2>Section 6: empty title and aria-label</h2>
+
+    <!-- Empty title -->
+    <iframe src="https://www.somewhere.com" title=""></iframe>
+
+    <!-- empty aria-label -->
+    <iframe src="https://www.somewhere.com" allow="autoplay; encrypted-media" aria-label=""></iframe>
+</section>
+
+<section>
+    <h2>Section 7: hidden iframe with empty title and aria-label</h2>
+
+    <!-- hidden iframe with empty title -->
+    <iframe src="https://www.somewhere.com" title=""></iframe>
+
+    <!-- hidden iframe with empty aria-label -->
+    <iframe src="https://www.somewhere.com" allow="autoplay; encrypted-media" aria-label=""></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mixed Content Iframe Example</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+I need a sensible HTML page contiaining following along with other content:
+- few figure elements
+- few figcaption elements which are a child of a figure element
+- few figcaption elements which are not a child of a figure element
+- a figcaption element with empty content
+
+Please shuffle them a bit so they are not consecutive
+
+I need a blogpost page without any figure or figure related elements
+

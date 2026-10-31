@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page with Tables and Roles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .role-table {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .role-columnheader {
+            display: table-cell;
+            font-weight: bold;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Example Page with Various Tables and Roles</h1>
+    <p>This page contains different table structures and elements demonstrating various roles.</p>
+</header>
+
+<section>
+    <h2>Basic Table</h2>
+    <table>
+        <caption>Employee Directory</caption>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Department</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>Software Engineer</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>Project Manager</td>
+            <td>Marketing</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Table with Empty Headers</h2>
+    <table>
+        <caption>Product List</caption>
+        <thead>
+        <tr>
+            <th>Product Name</th>
+            <th></th> <!-- Empty header -->
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Widget A</td>
+            <td>In Stock</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td>Widget B</td>
+            <td>Out of Stock</td>
+            <td>$30</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Table without TH Elements</h2>
+    <table>
+        <caption>Daily Temperatures</caption>
+        <tbody>
+        <tr>
+            <td>Monday</td>
+            <td>70°F</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>75°F</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Role Table with Column Headers</h2>
+    <div role="table" class="role-table">
+        <div role="row">
+            <div role="columnheader">Month</div>
+            <div role="columnheader">Sales</div>
+        </div>
+        <div role="row">
+            <div role="columnheader">January</div>
+            <div>$1000</div>
+        </div>
+        <div role="row">
+            <div role="columnheader">February</div>
+            <div>$1200</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Role Table with Row Headers</h2>
+    <div role="table" class="role-table">
+        <div role="row">
+            <div role="rowheader">Team A</div>
+            <div>90</div>
+        </div>
+        <div role="row">
+            <div role="rowheader">Team B</div>
+            <div>85</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Role Table with Empty Row Headers</h2>
+    <div role="table" class="role-table">
+        <div role="row">
+            <div role="rowheader">Group 1</div>
+            <div>10</div>
+        </div>
+        <div role="row">
+            <div role="rowheader"></div> <!-- Empty row header -->
+            <div>15</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Role Table with empty Column Headers</h2>
+    <div role="table" class="role-table">
+        <div role="row">
+            <div role="columnheader"></div> <!-- Empty column header -->
+            <div role="columnheader">Sales</div>
+        </div>
+        <div role="row">
+            <div role="columnheader">January</div>
+            <div>$1000</div>
+        </div>
+        <div role="row">
+            <div role="columnheader">February</div>
+            <div>$1200</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Role Table with No Headers</h2>
+    <div role="table" class="role-table">
+        <div role="row">
+            <div>Item A</div>
+            <div>50</div>
+        </div>
+        <div role="row">
+            <div>Item B</div>
+            <div>75</div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Example Page with Various Tables and Roles</p>
+</footer>
+
+</body>
+</html>

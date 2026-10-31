@@ -1,0 +1,9 @@
+I need a sensible HTML page containing each of the following along with other content:
+- picture element
+- miltiple img elements
+- few img elements without alt attribute
+- few img elements with an empty alt attribute
+- few img elements with alt attribute containing 1-3 characters
+- few img element variations each with alt attribute containing one of the following extensions: .jpg, .jpeg, .png, .svg (I need samples for all variations)
+
+I need a blogpost page without any image or picture elements

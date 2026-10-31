@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIA Attribute Examples</title>
+</head>
+<body>
+
+<header>
+    <h1>Exploring ARIA Attributes for Accessibility</h1>
+    <p>This page provides examples of various ARIA attributes used to improve accessibility in web applications. ARIA
+        attributes help define roles and states for elements to ensure they are accessible to users with assistive
+        technologies.</p>
+</header>
+
+<section>
+    <h2>1. Navigation Menu with aria-current</h2>
+    <nav>
+        <ul>
+            <li><a href="home.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section>
+    <h2>2. Expandable Content with aria-expanded</h2>
+    <button aria-expanded="false" aria-controls="details1">Show More Details</button>
+    <div id="details1" hidden>
+        <p>This is additional information that is revealed when the button is clicked.</p>
+    </div>
+
+    <button aria-expanded="true" aria-controls="details2">Hide More Details</button>
+    <div id="details2">
+        <p>This content is currently visible because the button has an aria-expanded value of true.</p>
+    </div>
+</section>
+
+<section>
+    <h2>3. Tab Interface with aria-selected</h2>
+    <div role="tablist">
+        <button role="tab" aria-selected="true" aria-controls="tab1">Tab 1</button>
+        <button role="tab" aria-selected="false" aria-controls="tab2">Tab 2</button>
+        <button role="tab" aria-selected="false" aria-controls="tab3">Tab 3</button>
+    </div>
+    <div id="tab1" role="tabpanel">
+        <p>Content for Tab 1.</p>
+    </div>
+    <div id="tab2" role="tabpanel" hidden>
+        <p>Content for Tab 2.</p>
+    </div>
+    <div id="tab3" role="tabpanel" hidden>
+        <p>Content for Tab 3.</p>
+    </div>
+</section>
+
+<section>
+    <h2>4. Button with aria-pressed</h2>
+    <button aria-pressed="false">Like</button>
+    <button aria-pressed="true">Unlike</button>
+</section>
+
+<section>
+    <h2>5. Describing Relationships with aria-describedby</h2>
+    <p id="description1">This button submits the form data.</p>
+    <button aria-describedby="description1">Submit</button>
+</section>
+
+<section>
+    <h2>6. ARIA Labeling with aria-label and aria-labelledby</h2>
+    <p><input type="text" aria-label="Search" placeholder="Type to search..."></p>
+    <p>
+        <label id="username-label" for="username">Username:</label>
+        <input type="text" id="username" aria-labelledby="username-label">
+    </p>
+</section>
+
+<section>
+    <h2>7. Live Regions with aria-live and Role Combinations</h2>
+    <p role="status" aria-live="polite">Updates will be announced when the user is idle.</p>
+    <p role="alert" aria-live="assertive">This message is announced immediately as an alert.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Accessibility Guide. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

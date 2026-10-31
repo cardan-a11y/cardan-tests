@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Web Page with Various ARIA Roles</title>
+</head>
+<body>
+
+<header>
+    <h1>Exploring Diverse ARIA Roles for Web Accessibility</h1>
+    <p>ARIA roles help define how different elements should be treated by assistive technologies, providing additional
+        context for users. Below, we explore some of these roles through practical examples.</p>
+</header>
+
+<section>
+    <h2>1. Navigation with role="navigation"</h2>
+    <nav role="navigation">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <p>The `navigation` role indicates a section of the page intended for site navigation.</p>
+</section>
+
+<section>
+    <h2>2. Role="banner" for Site Header</h2>
+    <div role="banner">
+        <p>This is the banner region, often used for the site's header content or branding.</p>
+    </div>
+</section>
+
+<section>
+    <h2>3. Using role="main" for Primary Content</h2>
+    <main role="main">
+        <p>The `main` role identifies the main content area of the page, where the central information resides.</p>
+        <p>This area is crucial for assistive technology users to jump directly to the main content.</p>
+    </main>
+</section>
+
+<section>
+    <h2>4. Role="contentinfo" in the Footer</h2>
+    <footer role="contentinfo">
+        <p>&copy; 2024 Example Company. All rights reserved.</p>
+        <p>Terms of Service | Privacy Policy</p>
+    </footer>
+</section>
+
+<section>
+    <h2>5. Role="search" for Search Functionality</h2>
+    <form role="search" action="/search" method="GET">
+        <label for="search-input">Search the site:</label>
+        <input type="text" id="search-input" name="q" placeholder="Type to search...">
+        <button type="submit">Search</button>
+    </form>
+    <p>The `search` role helps identify search-related components, allowing assistive technologies to announce the area
+        as a search region.</p>
+</section>
+
+<section>
+    <h2>6. Complementary Information with role="complementary"</h2>
+    <aside role="complementary">
+        <p>This section contains additional information related to the main content, such as related articles or
+            links.</p>
+    </aside>
+    <p>The `complementary` role is used to mark content that complements the main information but is not the central
+        focus.</p>
+</section>
+
+<section>
+    <h2>7. Decorative Content with role="presentation"</h2>
+    <img src="images/decorative.jpg" alt="" role="presentation">
+    <p>This image has the `role="presentation"` attribute, indicating it is purely decorative and should be ignored by
+        screen readers.</p>
+</section>
+
+<section>
+    <h2>8. Alerts Using role="alertdialog"</h2>
+    <div role="alertdialog" aria-modal="true">
+        <p>An important message requiring user attention.</p>
+        <button>Close Alert</button>
+    </div>
+</section>
+
+</body>
+</html>

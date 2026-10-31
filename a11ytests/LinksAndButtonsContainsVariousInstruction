@@ -1,0 +1,25 @@
+I need a blogpost page with some sensible content. The page needs to include the following:
+- a <a> element without href attribute
+- a <a> element with an empty href attribute
+- a role='link' element without href attribute
+- a role='link' element with an empty href attribute
+- a <a> element which contains an img element
+- a <a> element which contains an svg element
+- a role='link' element which contains an img element
+- a role='link' element which contains an svg element
+- a <a> element which contains "toegankelijkheidsverklaring.nl/register/" inside href attribute
+- a role='link' element which contains "toegankelijkheidsverklaring.nl/register/" inside href attribute
+- a <a> element which has an aria-label attribute
+- a role='link' element which has an aria-label attribute
+- a button element which has an aria-label attribute
+- a role='button' element which has an aria-label attribute
+- a <a> element with an aria-label attribute value not the same as the link text
+- a <a> element with an aria-label attribute value the same as the link text
+- a role='link' element with an aria-label attribute value not the same as the link text
+- a role='link' element with an aria-label attribute value the same as the link text
+- a button element with an aria-label attribute value not the same as the button text
+- a button element with an aria-label attribute value the same as the button text
+- a role='button' element with an aria-label attribute value not the same as the button text
+- a role='button' element with an aria-label attribute value the same as the button text
+
+I need a blog post with sensible content which does not contain any <a> or <button> or role='link' or role='button'

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Multiple Role Attributes</title>
+</head>
+<body>
+
+<header>
+    <h1>Understanding ARIA Roles in Web Accessibility</h1>
+    <p>ARIA roles are used to define the type of an element for assistive technologies, enhancing the accessibility of
+        web content. Below are various examples demonstrating how different roles can be applied to HTML elements.</p>
+</header>
+
+<section>
+    <h2>1. Dialog Example</h2>
+    <div role="dialog" aria-modal="true">
+        <p>This is a modal dialog box. It is used to present important information or require user interaction before
+            proceeding.</p>
+        <button>Close</button>
+    </div>
+</section>
+
+<section>
+    <h2>2. Menu and Menu Items</h2>
+    <nav role="menu">
+        <ul>
+            <li role="menuitem">Home</li>
+            <li role="menuitem">About</li>
+            <li role="menuitem">Services</li>
+            <li role="menuitem">Contact</li>
+        </ul>
+    </nav>
+</section>
+
+<section>
+    <h2>3. Group Example</h2>
+    <div role="group" aria-labelledby="group-label">
+        <p id="group-label">Grouped content example. This section contains related information that should be treated as
+            a single unit.</p>
+        <button>Option 1</button>
+        <button>Option 2</button>
+    </div>
+</section>
+
+<section>
+    <h2>4. Tabs Interface</h2>
+    <div role="tablist" aria-label="Sample Tabs">
+        <button role="tab" aria-selected="true" aria-controls="tabpanel1">Tab 1</button>
+        <button role="tab" aria-selected="false" aria-controls="tabpanel2">Tab 2</button>
+        <button role="tab" aria-selected="false" aria-controls="tabpanel3">Tab 3</button>
+    </div>
+    <div id="tabpanel1" role="tabpanel">
+        <p>Content for Tab 1.</p>
+    </div>
+    <div id="tabpanel2" role="tabpanel" hidden>
+        <p>Content for Tab 2.</p>
+    </div>
+    <div id="tabpanel3" role="tabpanel" hidden>
+        <p>Content for Tab 3.</p>
+    </div>
+</section>
+
+<section>
+    <h2>5. Combobox Example</h2>
+    <label for="combobox1">Select an option:</label>
+    <div role="combobox" aria-expanded="false" aria-owns="listbox1" aria-haspopup="listbox">
+        <input type="text" id="combobox1" aria-autocomplete="list" aria-controls="listbox1">
+        <ul role="listbox" id="listbox1">
+            <li role="option">Option 1</li>
+            <li role="option">Option 2</li>
+            <li role="option">Option 3</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>6. Other Roles for Testing</h2>
+    <p role="note">This is a note providing additional information.</p>
+    <div role="banner">
+        <p>The banner role represents a banner region at the top of the page.</p>
+    </div>
+    <aside role="complementary">
+        <p>This is complementary content that is related to the main content of the page.</p>
+    </aside>
+    <footer role="contentinfo">
+        <p>&copy; 2024 Accessibility Examples. All rights reserved.</p>
+    </footer>
+</section>
+
+</body>
+</html>

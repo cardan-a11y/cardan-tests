@@ -1,0 +1,6 @@
+I need an HTML page which will contain samples of <a> containing one of the words:
+"help", "hulp", "faq", "service", "klantenservice"
+
+I also need some cases where these words will not be direct content of that <a> but will be content of a child like a structure like this for example <a><span>help</span></a>
+
+To give you some context, I am trying to match links in a page which lead to help

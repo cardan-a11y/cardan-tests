@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QSIFeedback Implementation Example</title>
+
+    <!-- Qualtrics Site Intercept Feedback Script -->
+    <script type="text/javascript" src="https://cdn.qsiph.feedback/qsif.js"></script>
+
+    <script type="text/javascript">
+        var QSIConfig = {
+            intercept: 'YOUR_QUALTRICS_INTERCEPT_ID',
+            display: {
+                trigger: 'onLoad',
+                url: 'https://your.qualtrics.com/jfe/form/YOUR_QUALTRICS_SURVEY_ID'
+            }
+        };
+
+        // Initialize the feedback button or survey on page load
+        window.onload = function () {
+            Qualtrics.SurveyEngine.addOnload(function () {
+                /* Survey initialization code */
+                console.log("Qualtrics Feedback is ready.");
+            });
+        };
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Customer Feedback Survey</h1>
+    <p>We value your feedback! Please help us improve our services by filling out this quick survey.</p>
+</header>
+
+<section>
+    <h2>Why Your Feedback Matters</h2>
+    <p>Your opinion helps us understand what we are doing right and what we need to improve. The feedback we receive
+        from customers like you helps us grow and deliver better experiences.</p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <p>We offer a range of services from web development to user experience consultation. Please use the feedback option
+        to tell us how satisfied you are with our services.</p>
+</section>
+
+<!-- Example of a feedback button powered by QSI -->
+<div id="QSIButton"
+     style="padding: 10px; background-color: #0073e6; color: white; text-align: center; cursor: pointer;">
+    Give Feedback
+</div>
+
+<footer>
+    <p>&copy; 2024 Customer Feedback. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
