@@ -61,6 +61,8 @@
         <p>Bekijk alle beschikbare tests in de lijst hieronder.</p>
     </header>
     <main>
+        <h2>ACT-regels</h2>
+        <p><a href="/act-rules/">ACT-regels</a> staan in mappen met het regelnummer, met aparte pagina's voor geslaagd, afgekeurd en niet van toepassing.</p>
         <h2>Nieuwe / eigen testcases</h2>
         <?php
         // Map waar de testbestanden zich bevinden

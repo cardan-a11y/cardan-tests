@@ -1,0 +1,6666 @@
+[
+  {
+    "id": "047fe0",
+    "name": "Document has heading for non-repeated content",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/047fe0/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "09o5cg",
+    "name": "Text has enhanced contrast",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/09o5cg/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6b.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-10.html",
+        "title": "Failed Example 10",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-11.html",
+        "title": "Failed Example 11",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-12.html",
+        "title": "Failed Example 12",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-13.html",
+        "title": "Failed Example 13",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-9.html",
+        "title": "Failed Example 9",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-10.html",
+        "title": "Inapplicable Example 10",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-11.html",
+        "title": "Inapplicable Example 11",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "0ssw9k",
+    "name": "Scrollable content can be reached with sequential focus navigation",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/0ssw9k/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2b.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2b.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3b.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6b.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "0va7u6",
+    "name": "HTML images contain no text",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/0va7u6/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "1a02b0",
+    "name": "Audio and visuals of video element have transcript",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/1a02b0/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "1ea59c",
+    "name": "Video element visual content has audio description",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/1ea59c/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "1ec09b",
+    "name": "Video element visual content has strict accessible alternative",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/1ec09b/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "23a2a8",
+    "name": "Image has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/23a2a8/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "24afc2",
+    "name": "Important letter spacing in style attributes is wide enough",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/24afc2/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "2779a5",
+    "name": "HTML page has non-empty title",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/2779a5/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2b.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "2eb176",
+    "name": "Audio element content has transcript",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/2eb176/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "2ee8b8",
+    "name": "Visible label is part of accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-11.html",
+        "title": "Passed Example 11",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-12.html",
+        "title": "Passed Example 12",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-13.html",
+        "title": "Passed Example 13",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-14.html",
+        "title": "Passed Example 14",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-15.html",
+        "title": "Passed Example 15",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-16.html",
+        "title": "Passed Example 16",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-10.html",
+        "title": "Failed Example 10",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-11.html",
+        "title": "Failed Example 11",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-12.html",
+        "title": "Failed Example 12",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-13.html",
+        "title": "Failed Example 13",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-14.html",
+        "title": "Failed Example 14",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-15.html",
+        "title": "Failed Example 15",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-16.html",
+        "title": "Failed Example 16",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-9.html",
+        "title": "Failed Example 9",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "2t702h",
+    "name": "Summary element has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/2t702h/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "307n5z",
+    "name": "Element with presentational children has no focusable content",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/307n5z/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-1b.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "36b590",
+    "name": "Error message describes invalid form field value",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/36b590/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "3e12e1",
+    "name": "Block of repeated content is collapsible",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "46ca7f",
+    "name": "Element marked as decorative is not exposed",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/46ca7f/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "4b1c6c",
+    "name": "Iframe elements with identical accessible names have equivalent purpose",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/4b1c6c/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "4c31df",
+    "name": "Audio or video element that plays automatically has a control mechanism",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/4c31df/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "4e8ab6",
+    "name": "Element with role attribute has required states and properties",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/4e8ab6/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6b.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2b.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "59796f",
+    "name": "Image button has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/59796f/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "59br37",
+    "name": "Zoomed text node is not clipped with CSS overflow",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/59br37/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "5c01ea",
+    "name": "ARIA state or property is permitted",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/5c01ea/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-11.html",
+        "title": "Passed Example 11",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-12.html",
+        "title": "Passed Example 12",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-13.html",
+        "title": "Passed Example 13",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "5effbb",
+    "name": "Link in context is descriptive",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/5effbb/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "5f99a7",
+    "name": "ARIA attribute is defined in WAI-ARIA",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/5f99a7/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2b.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "674b10",
+    "name": "Role attribute has valid value",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/674b10/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4b.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "6a7281",
+    "name": "ARIA state or property has valid value",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/6a7281/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "6cfa84",
+    "name": "Element with aria-hidden has no content in sequential focus navigation",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/6cfa84/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "73f2c2",
+    "name": "`autocomplete` attribute has valid value",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/73f2c2/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-10.html",
+        "title": "Failed Example 10",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-9.html",
+        "title": "Failed Example 9",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8b.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9b.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "7677a9",
+    "name": "Device motion based changes to the content can also be created from the user interface",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/7677a9/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "78fd32",
+    "name": "Important line height in style attributes is wide enough",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/78fd32/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-10.html",
+        "title": "Inapplicable Example 10",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "7d6734",
+    "name": "SVG element with explicit role has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/7d6734/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "80af7b",
+    "name": "Focusable element has no keyboard trap",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/80af7b/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "80f0bf",
+    "name": "Audio or video element avoids automatically playing audio",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/80f0bf/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "8fc3b6",
+    "name": "Object element rendering non-text content has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/8fc3b6/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "97a4e1",
+    "name": "Button has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/97a4e1/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "9bd38c",
+    "name": "Content has alternative for visual reference",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/9bd38c/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-11.html",
+        "title": "Passed Example 11",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-12.html",
+        "title": "Passed Example 12",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-13.html",
+        "title": "Passed Example 13",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-14.html",
+        "title": "Passed Example 14",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-15.html",
+        "title": "Passed Example 15",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "9e45ec",
+    "name": "Important word spacing in style attributes is wide enough",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "a1b64e",
+    "name": "Focusable element has no keyboard trap via standard navigation",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/a1b64e/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "a25f45",
+    "name": "Headers attribute specified on a cell refers to cells in the same table element",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/a25f45/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4b.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "aaa1bf",
+    "name": "Audio or video element that plays automatically has no audio that lasts more than 3 seconds",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/aaa1bf/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "ab4d13",
+    "name": "Video element content is media alternative for text",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/ab4d13/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "afb423",
+    "name": "Audio element content is media alternative for text",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/afb423/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "afw4f7",
+    "name": "Text has minimum contrast",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-11.html",
+        "title": "Passed Example 11",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7b.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-10.html",
+        "title": "Failed Example 10",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-11.html",
+        "title": "Failed Example 11",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-9.html",
+        "title": "Failed Example 9",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-10.html",
+        "title": "Inapplicable Example 10",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-11.html",
+        "title": "Inapplicable Example 11",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "aizyf1",
+    "name": "Link is descriptive",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/aizyf1/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "akn7bn",
+    "name": "Iframe with interactive elements is not excluded from tab-order",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/akn7bn/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6b.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "b20e66",
+    "name": "Links with identical accessible names have equivalent purpose",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/b20e66/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-11.html",
+        "title": "Passed Example 11",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-12.html",
+        "title": "Passed Example 12",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "b33eff",
+    "name": "Orientation of the page is not restricted using CSS transforms",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/b33eff/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3b.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "b40fd1",
+    "name": "Document has a landmark with non-repeated content",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/b40fd1/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "b49b2e",
+    "name": "Heading is descriptive",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/b49b2e/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "b4f0c3",
+    "name": "Meta viewport allows for zoom",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/b4f0c3/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2b.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2b.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3b.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "b5c3f8",
+    "name": "HTML page has lang attribute",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/b5c3f8/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.xml",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "bc4a75",
+    "name": "ARIA required owned elements",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/bc4a75/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-10.html",
+        "title": "Failed Example 10",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-9.html",
+        "title": "Failed Example 9",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "bc659a",
+    "name": "Meta element has no refresh delay",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/bc659a/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "bf051a",
+    "name": "HTML page `lang` attribute has valid language tag",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/bf051a/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "bisz58",
+    "name": "Meta element has no refresh delay (no exception)",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/bisz58/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "c249d5",
+    "name": "Device motion based changes to the content can be disabled",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/c249d5/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "c3232f",
+    "name": "Video element visual-only content has accessible alternative",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/c3232f/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "c487ae",
+    "name": "Link has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/c487ae/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-11.html",
+        "title": "Passed Example 11",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-10.html",
+        "title": "Failed Example 10",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-11.html",
+        "title": "Failed Example 11",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-9.html",
+        "title": "Failed Example 9",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "c4a8a4",
+    "name": "HTML page title is descriptive",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/c4a8a4/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "c5a4ea",
+    "name": "Video element visual content has accessible alternative",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/c5a4ea/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "cae760",
+    "name": "Iframe element has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/cae760/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "cc0f0a",
+    "name": "Form field label is descriptive",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/cc0f0a/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "cf77f2",
+    "name": "Bypass Blocks of Repeated Content",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/cf77f2/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-10.html",
+        "title": "Passed Example 10",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-11.html",
+        "title": "Passed Example 11",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-12.html",
+        "title": "Passed Example 12",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "d0f69e",
+    "name": "Table header cell has assigned cells",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/d0f69e/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "d7ba54",
+    "name": "Video element visual-only content has audio track alternative",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/d7ba54/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "de46e4",
+    "name": "Element with lang attribute has valid language tag",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/de46e4/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-9.html",
+        "title": "Failed Example 9",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "e086e5",
+    "name": "Form field has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8b.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-9.html",
+        "title": "Failed Example 9",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "e7aa44",
+    "name": "Audio element content has text alternative",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/e7aa44/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "e88epe",
+    "name": "Image not in the accessibility tree is decorative",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/e88epe/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-10.html",
+        "title": "Inapplicable Example 10",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "eac66b",
+    "name": "Video element auditory content has accessible alternative",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/eac66b/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "ebe86a",
+    "name": "Focusable element has no keyboard trap via non-standard navigation",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/ebe86a/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "ee13b5",
+    "name": "Video element visual-only content has transcript",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/ee13b5/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "efbfc7",
+    "name": "Text content that changes automatically can be paused, stopped or hidden",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/efbfc7/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "f51b46",
+    "name": "Video element auditory content has captions",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/f51b46/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "fd26cf",
+    "name": "Video element visual-only content is media alternative for text",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/fd26cf/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "fd3a94",
+    "name": "Links with identical accessible names and same context serve equivalent purpose",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/fd3a94/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-9.html",
+        "title": "Passed Example 9",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "ff89c9",
+    "name": "ARIA required context role",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/ff89c9/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "ffbc54",
+    "name": "No keyboard shortcut uses only printable characters",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/ffbc54/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "ffd0e9",
+    "name": "Heading has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/ffd0e9/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-6.html",
+        "title": "Failed Example 6",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-7.html",
+        "title": "Failed Example 7",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-8.html",
+        "title": "Failed Example 8",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "kb1m8s",
+    "name": "ARIA global properties not used where prohibited",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/kb1m8s/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "m6b1q3",
+    "name": "Menuitem has non-empty accessible name",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/m6b1q3/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "off6ek",
+    "name": "HTML element language subtag matches language",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/off6ek/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "oj04fd",
+    "name": "Element in sequential focus order has visible focus",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/oj04fd/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4b.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2b.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "qt1vmo",
+    "name": "Image accessible name is descriptive",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.html",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-10.html",
+        "title": "Inapplicable Example 10",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-7.html",
+        "title": "Inapplicable Example 7",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-8.html",
+        "title": "Inapplicable Example 8",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-9.html",
+        "title": "Inapplicable Example 9",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "ucwvc8",
+    "name": "HTML page language subtag matches default language",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/ucwvc8/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-4.html",
+        "title": "Failed Example 4",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-5.html",
+        "title": "Failed Example 5",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-2.html",
+        "title": "Inapplicable Example 2",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-3.html",
+        "title": "Inapplicable Example 3",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-4.html",
+        "title": "Inapplicable Example 4",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-5.html",
+        "title": "Inapplicable Example 5",
+        "expected": "inapplicable"
+      },
+      {
+        "file": "inapplicable-6.html",
+        "title": "Inapplicable Example 6",
+        "expected": "inapplicable"
+      }
+    ]
+  },
+  {
+    "id": "ye5d6e",
+    "name": "Document has an instrument to move focus to non-repeated content",
+    "page": "https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/proposed/",
+    "cases": [
+      {
+        "file": "passed-1.html",
+        "title": "Passed Example 1",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-2.html",
+        "title": "Passed Example 2",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-3.html",
+        "title": "Passed Example 3",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-4.html",
+        "title": "Passed Example 4",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-5.html",
+        "title": "Passed Example 5",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-6.html",
+        "title": "Passed Example 6",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-7.html",
+        "title": "Passed Example 7",
+        "expected": "passed"
+      },
+      {
+        "file": "passed-8.html",
+        "title": "Passed Example 8",
+        "expected": "passed"
+      },
+      {
+        "file": "failed-1.html",
+        "title": "Failed Example 1",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-2.html",
+        "title": "Failed Example 2",
+        "expected": "failed"
+      },
+      {
+        "file": "failed-3.html",
+        "title": "Failed Example 3",
+        "expected": "failed"
+      },
+      {
+        "file": "inapplicable-1.svg",
+        "title": "Inapplicable Example 1",
+        "expected": "inapplicable"
+      }
+    ]
+  }
+]
