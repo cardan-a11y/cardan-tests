@@ -65,7 +65,7 @@
 
     <h2>Uitleg</h2>
     <p>Een afbeeldingsknop (<code>&lt;input type="image"&gt;</code>) heeft een toegankelijke naam nodig. Zonder naam is niet duidelijk wat de knop doet voor een schermlezergebruiker. De naam komt meestal uit het alt-attribuut, maar kan ook uit aria-label, aria-labelledby of title komen. De standaardnaam die een browser zelf invult (zoals "Verzenden" of "Submit") telt voor deze regel niet mee.</p>
-    <p>Elk geval staat in een eigen sectie, met de verwachte uitkomst erbij. Elke knop heeft een uniek id (a1 tot en met a16), zodat hij in de uitkomsten terug te vinden is. Alle knoppen staan in formulieren die niets versturen. Sommige knoppen zijn met opzet zonder naam: die zijn het onderwerp van de test.</p>
+    <p>Elk geval staat in een eigen sectie, met de verwachte uitkomst erbij. Elke knop heeft een uniek id (a1 tot en met a17), zodat hij in de uitkomsten terug te vinden is. Alle knoppen staan in formulieren die niets versturen. Sommige knoppen zijn met opzet zonder naam: die zijn het onderwerp van de test.</p>
 
     <nav aria-labelledby="inhoud">
         <h2 id="inhoud">Inhoud</h2>
@@ -83,6 +83,7 @@
             <li><a href="#geval-11">Geval 11: verwacht failed (leeg aria-label)</a></li>
             <li><a href="#geval-12">Geval 12: verwacht geen uitkomst (verborgen knoppen)</a></li>
             <li><a href="#geval-13">Geval 13: verwacht geen uitkomst (andere elementen)</a></li>
+            <li><a href="#geval-14">Geval 14: verwacht passed (e-mailadres in alt)</a></li>
             <li><a href="#overzicht">Overzicht van alle gevallen</a></li>
         </ol>
     </nav>
@@ -171,6 +172,12 @@
         <p><img id="a16" src="knop.png" width="48" height="48"></p>
     </section>
 
+    <section id="geval-14">
+        <h2>Geval 14: verwacht passed (e-mailadres in alt)</h2>
+        <p class="verwacht">Verwacht: a17 geeft passed. De naam komt uit alt="Mail jan@example.test". In het bewijs hoort het e-mailadres gemaskeerd te zijn: alt="Mail █". Het adres is verzonnen.</p>
+        <form action="#geval-14" onsubmit="return false"><input type="image" id="a17" src="knop.png" alt="Mail jan@example.test"></form>
+    </section>
+
     <h2 id="overzicht">Overzicht van alle gevallen</h2>
     <table>
         <thead>
@@ -193,6 +200,7 @@
             <tr><td>12</td><td>a14</td><td>input type="image" zonder alt, met aria-hidden="true" en tabindex="-1"</td><td>geen uitkomst (inapplicable)</td></tr>
             <tr><td>13</td><td>a15</td><td>button met img alt="Zoeken"</td><td>geen uitkomst (inapplicable)</td></tr>
             <tr><td>13</td><td>a16</td><td>img zonder alt</td><td>geen uitkomst (inapplicable)</td></tr>
+            <tr><td>14</td><td>a17</td><td>input type="image" met alt="Mail jan@example.test"</td><td>passed (e-mailadres gemaskeerd in bewijs)</td></tr>
         </tbody>
     </table>
 
