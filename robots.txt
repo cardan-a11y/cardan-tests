@@ -1,5 +1,8 @@
 User-agent: CardanAllAccess
 Allow: /
+Disallow: /crawler-test/closed/
+Disallow: /_crawler-log/
+Disallow: /_crawler-admin/
 
 User-agent: *
 Disallow: /

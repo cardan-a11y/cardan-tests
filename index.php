@@ -1,3 +1,4 @@
+<?php require __DIR__ . '/_crawler/bootstrap.php'; ?>
 <!DOCTYPE html>
 <html lang="nl">
 <head>
